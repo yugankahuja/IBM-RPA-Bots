@@ -1,0 +1,1202 @@
+ÓædefVar --name pdf --type Pdf
+defVar --name prev --type String
+defVar --name pdf1 --type Pdf
+defVar --name mainlt --type List --innertype String
+defVar --name rowit --type String
+defVar --name split_1 --type List --innertype String
+defVar --name iter --type Numeric
+defVar --name region --type Rectangle
+defVar --name i --type Numeric --value 428
+defVar --name index --type Numeric
+defVar --name files --type Numeric
+defVar --name file_path --type String
+defVar --name file_loc --type List --innertype String
+defVar --name pages --type List --innertype Numeric --value "[6,8]"
+defVar --name pg --type String
+defVar --name pgno --type Numeric
+defVar --name qt --type Numeric --value 6
+defVar --name pdf2 --type Pdf
+defVar --name test_1 --type String
+defVar --name split_2 --type List --innertype String
+defVar --name k --type Numeric
+defVar --name region_2 --type Rectangle
+defVar --name pgend --type Numeric
+defVar --name x --type Numeric
+defVar --name index1 --type Numeric
+defVar --name index2 --type Numeric
+defVar --name index3 --type Numeric
+defVar --name index4 --type Numeric
+defVar --name split_z --type String
+defVar --name index5 --type Numeric
+defVar --name index6 --type Numeric
+defVar --name get_item --type String
+defVar --name data --type String
+defVar --name var --type List --innertype Numeric
+defVar --name index7 --type Numeric
+defVar --name index8 --type Numeric
+defVar --name index9 --type Numeric
+defVar --name index10 --type Numeric
+defVar --name j --type Numeric
+defVar --name n --type Numeric
+defVar --name doc4 --type String
+defVar --name list1 --type List --innertype String
+defVar --name found --type String
+defVar --name TF --type Boolean
+defVar --name doc5 --type String
+defVar --name split --type List --innertype String
+defVar --name tf2 --type Boolean
+defVar --name prev_data --type List --innertype String
+defVar --name occ --type Boolean
+//defVar --name pdf1 --type Pdf
+defVar --name doc --type String
+defVar --name out --type String
+defVar --name out_split --type List --innertype String
+defVar --name ITEMSN_Value --type String
+defVar --name DESCRIPTION_Value --type String
+//defVar --name i --type Numeric
+defVar --name item --type String
+defVar --name regex1 --type String
+//defVar --name split --type List --innertype String
+//defVar --name index --type Numeric
+defVar --name split_len --type Numeric
+//defVar --name j --type Numeric
+defVar --name index_dec --type String
+defVar --name FOB --type String
+defVar --name PMV --type String
+defVar --name DBKCLMD --type String
+defVar --name IGSTSTAT --type String
+defVar --name IGST_value --type String
+defVar --name SCHCOD --type String
+defVar --name IGST_amount --type String
+defVar --name END_use --type String
+defVar --name Third_Party_Item --type String
+defVar --name SQC_MSR --type String
+defVar --name SQC_UQC --type String
+defVar --name State_of_Origin --type String
+defVar --name district_of_origin --type String
+defVar --name FTA_BA --type String
+defVar --name COMP_CESS --type String
+defVar --name item1 --type String
+defVar --name PT_Abroad --type String
+defVar --name Reward_Benefit --type String
+defVar --name Scheme_Description --type String
+//defVar --name doc4 --type String
+defVar --name doc3 --type String
+defVar --name sw --type Numeric
+//defVar --name region --type Rectangle
+defVar --name split1 --type List --innertype String
+//defVar --name n --type Numeric
+//defVar --name index1 --type Numeric
+//defVar --name index2 --type Numeric
+//defVar --name index3 --type Numeric
+//defVar --name index4 --type Numeric
+//defVar --name index5 --type Numeric
+//defVar --name index7 --type Numeric
+//defVar --name index8 --type Numeric
+//defVar --name index9 --type Numeric
+//defVar --name index10 --type Numeric
+//defVar --name index6 --type Numeric
+//defVar --name k --type Numeric
+defVar --name splitin --type List --innertype String
+defVar --name splitn --type List --innertype String
+//defVar --name list1 --type List --innertype String
+//defVar --name pdf1 --type Pdf
+defVar --name SB_Header --type String
+defVar --name SB_Header_list --type List --innertype String
+defVar --name Port_Code_SB_No_SB_Date --type String
+defVar --name Port_Code --type List --innertype String
+defVar --name Port_Code_Split --type List --innertype String
+defVar --name Port_Code_Value --type String
+defVar --name SB_No_Value --type String
+defVar --name SB_Date_Value --type String
+defVar --name ICE --type String
+defVar --name ICE_split --type List --innertype String
+defVar --name ICE_Value --type String
+defVar --name Br_Value --type String
+defVar --name ICE_Br_Value --type String
+defVar --name GSTIN_Type --type String
+defVar --name CB_Code --type String
+defVar --name INV_ITEM_CONT --type String
+defVar --name INV_ITEM_COUNT_Split --type List --innertype String
+defVar --name Nos_Inv --type String
+defVar --name Nos_Item --type String
+defVar --name Nos_Cont --type String
+defVar --name PKG_Data --type String
+defVar --name PKG_Data_Split --type List --innertype String
+defVar --name PKG_Inv --type String
+defVar --name PKG_Item_1 --type String
+defVar --name PKG_Item_2 --type String
+defVar --name PKG_Cont --type String
+defVar --name PKG_Item --type String
+defVar --name BE_Type --type String
+defVar --name Status_output --type String
+defVar --name Status_output_list --type List --innertype String
+defVar --name Mode --type String
+defVar --name Mode_split --type List --innertype String
+defVar --name MODE_Value --type String
+defVar --name ASSESS_Value --type String
+defVar --name EXMN_Value --type String
+defVar --name JOBBING_Value --type String
+defVar --name MEIS_Value --type String
+defVar --name DBK_Value --type String
+defVar --name RODTP_Value --type String
+defVar --name DEEC_DFIA_Value --type String
+defVar --name DFRC_Value --type String
+defVar --name LUT_Value --type String
+defVar --name PORT_OF_LOADING --type String
+//defVar --name STATE_OF_ORIGIN --type String
+defVar --name PORT_OF_FINAL_DESTINATION --type String
+defVar --name COUNTRY_OF_FINAL_DESTINATION --type String
+defVar --name PORT_OF_DISCHARGE --type String
+defVar --name PORT_OF_DISCHARGE_Split --type List --innertype String
+defVar --name Port_Dis --type String
+defVar --name Port_Dis1 --type String
+defVar --name PORT_OF_DISCHARGE_Value --type String
+defVar --name COUNTRY_OF_DISCHARGE --type String
+defVar --name EXP_ADD --type String
+//defVar --name data --type String
+defVar --name data2 --type String
+defVar --name EXPORTER_NAME_ADDRESS --type String
+defVar --name EXP_ADD_list --type List --innertype String
+defVar --name TYPE --type String
+defVar --name CON_ADD --type String
+defVar --name CONSIGNEE_NAME_ADDRESS --type String
+defVar --name DECL_DETAILS --type String
+defVar --name DECL_DETAILS_list --type List --innertype String
+defVar --name ADD_Code --type String
+defVar --name AD_CODE --type String
+defVar --name CB_NAME --type String
+defVar --name FOREX_BANK_AC_NO --type String
+defVar --name DBK_BANK_AC_NO --type String
+defVar --name IFSC_NO --type String
+defVar --name C_Value --type String
+defVar --name C_Value_list --type List --innertype String
+defVar --name FOB_VALUE --type String
+defVar --name FREIGHT --type String
+defVar --name FREIGHT_Split --type List --innertype String
+defVar --name FREIGHT_Value --type String
+defVar --name INSURANC_Value --type String
+defVar --name DISCOU_Value --type String
+defVar --name COM_Value --type String
+defVar --name DEDUC --type String
+defVar --name DEDUC_Split --type List --innertype String
+defVar --name DEDUCTIONS_Value --type String
+defVar --name PC_Value --type String
+defVar --name EMAIN_Details --type String
+defVar --name EMAIN_Details_Split --type List --innertype String
+defVar --name CIN_NO --type String
+defVar --name CIN_DT --type String
+defVar --name CIN_SITE_ID --type String
+defVar --name EQP_Details --type String
+defVar --name EQP_Details_Split --type List --innertype String
+defVar --name CONTAINER --type String
+defVar --name SEAL --type String
+defVar --name DATE --type String
+defVar --name S_No --type String
+defVar --name EXPR --type String
+defVar --name EXPPR_Split --type List --innertype String
+defVar --name DBK_CLAIM --type String
+defVar --name IGST_AMT --type String
+//defVar --name IGST_VALUE --type String
+defVar --name RODTEP_AMT --type String
+defVar --name ROSCTL_AMT --type String
+defVar --name INV_SUM --type String
+defVar --name INV_SUM_Split --type List --innertype String
+defVar --name SNO --type String
+defVar --name INV_NO --type String
+defVar --name INV_AMT --type String
+defVar --name CURRENC --type String
+defVar --name ANNEX_Details --type String
+defVar --name ANNEX_Details_Split --type List --innertype String
+defVar --name SEAL1 --type String
+defVar --name SEAL_TYPE --type String
+defVar --name NATURE_OF_CARGO --type String
+defVar --name NO_OF_PACKETS --type String
+defVar --name NO_OF_CONTAINERS --type String
+defVar --name LOOSE_PACKETS --type String
+defVar --name MARKS_NUM --type String
+defVar --name MARKS_NUMBERS --type String
+defVar --name PROC_Details --type String
+defVar --name PROC_Details_Split --type List --innertype String
+defVar --name Submission_Date --type String
+defVar --name Submission_Date_Time --type String
+defVar --name Submission_Date_Time_Split --type List --innertype String
+defVar --name Submission_Time --type String
+defVar --name LEO_NO --type String
+defVar --name LEO_Date --type String
+defVar --name BRC_Realisation_Date --type String
+defVar --name EXM_Date_Time --type String
+defVar --name EXM_Date_Time_Split --type List --innertype String
+defVar --name Examination_Date --type String
+defVar --name Examination_Time --type String
+defVar --name LEO_Date_Time --type String
+defVar --name LEO_Date_Time_Split --type List --innertype String
+defVar --name EVENT_LEO_Date --type String
+defVar --name EVENT_LEO_Time --type String
+
+//defVar --name pdf2 --type Pdf
+defVar --name REF_Details --type String
+defVar --name REF_Details_Split --type List --innertype String
+defVar --name SNO_REF --type String
+defVar --name SNO_REF_Split --type List --innertype String
+defVar --name REF_S_No --type String
+defVar --name REF_INVOICE_No --type String
+defVar --name REF_INVOICE_Dt --type String
+defVar --name INVOICE_No_Dt --type String
+defVar --name REF_AD_Code --type String
+defVar --name REF_INVTERM --type String
+defVar --name Parties_EXP_ADD --type String
+defVar --name PARTIES_EXPORTERS_NAME_ADDRESS --type String
+defVar --name THIRD_PARTY_ADD --type String
+defVar --name BUYER_NAME_ADD --type String
+defVar --name BUY_NAME_ADD --type String
+defVar --name PARTIES_BUYERS_NAME_ADDRESS --type String
+defVar --name BUYER_AEO_STATUS --type String
+defVar --name C_VAL_DTIL --type String
+defVar --name C_VAL_DTIL_Split --type List --innertype String
+defVar --name INV_VAL --type String
+defVar --name INV_VAL1 --type String
+defVar --name INVOICE_VALUE --type String
+defVar --name FB_VAL --type String
+defVar --name FB_VAL1 --type String
+defVar --name INVOICE_FOB_VALUE --type String
+defVar --name C_FRE --type String
+defVar --name C_INSU --type String
+defVar --name C_FRE_Split --type List --innertype String
+defVar --name C_INSU_Split --type List --innertype String
+defVar --name C_FREIGHT --type String
+defVar --name C_FREIGHT1 --type String
+defVar --name INVOICE_FREIGHT --type String
+defVar --name C_INSURANCE --type String
+defVar --name C_INSURANCE1 --type String
+defVar --name INVOICE_INSURANCE --type String
+defVar --name DIC_COM_DED --type String
+defVar --name DIC_COM_DED_Split --type List --innertype String
+defVar --name INVOICE_DISCOUNT --type String
+defVar --name INVOICE_COMMISON --type String
+defVar --name INVOICE_DEDUCT --type String
+defVar --name INVOICEEXCHANGE_RATE --type String
+defVar --name INVOICE_EXCHANGE_RATE --type String
+defVar --name ITEM_DETAILS_Item_SNo --type Image
+defVar --name Item_SNo --type String
+defVar --name Item_SNo_Split --type List --innertype String
+defVar --name HSCD --type String
+defVar --name HSCD_Split --type List --innertype String
+defVar --name INVOICE_HS_CD --type String
+defVar --name ITEM_DETAILS_HS_CD --type String
+defVar --name QUANTITY --type String
+defVar --name QUANTITY_Split --type List --innertype String
+defVar --name ITEM_Details_QUANTITY --type String
+defVar --name ITEM_UQC --type String
+defVar --name ITEM_UQC_Split --type List --innertype String
+defVar --name ITEM_Details_UQC --type String
+defVar --name ITEM_RATE --type String
+defVar --name ITEM_RATE_Split --type List --innertype String
+defVar --name ITEM_Details_RATE --type String
+defVar --name ITEM_VALUE_FC --type String
+defVar --name ITEM_VALUE_FC_Split --type List --innertype String
+defVar --name ITEM_Details_VALUE_FC --type String
+defVar --name main_rowit --type Numeric
+defVar --name excel --type Excel
+defVar --name sheet1 --type Excel
+defVar --name col_iter --type Numeric
+defVar --name serial --type Numeric
+defVar --name split_count --type Numeric
+defVar --name dfia --type Numeric
+defVar --name LICENCE_NO_4 --type String
+defVar --name DESCN_OF_EXPORT_ITEM --type String
+defVar --name INV_SNO --type String
+defVar --name EXP_SNO --type String
+defVar --name IMPQT --type String
+defVar --name EXPQTY --type String
+defVar --name UQC --type String
+defVar --name DESCN_OF_IMPORT_ITEM --type String
+defVar --name IMP_SNO --type String
+defVar --name INDIG --type String
+defVar --name LICENCE_NO --type String
+defVar --name SION --type String
+defVar --name o --type Numeric
+defVar --name doc_last --type String
+defVar --name dfia_details --type Numeric
+defVar --name toru --type Boolean
+defVar --name dfia_iter --type Numeric
+defVar --name ooc --type Boolean
+defVar --name pdf3 --type Pdf
+defVar --name swd --type String
+defVar --name swd_iter --type Numeric
+defVar --name INVSN --type String
+defVar --name ITMSN --type String
+defVar --name INFO --type String
+defVar --name QUALIFIER --type String
+defVar --name INFO_CD --type String
+defVar --name cd --type Boolean
+defVar --name INFO_TEXT --type String
+defVar --name INFO_MSR --type String
+defVar --name cc --type Numeric
+defVar --name UQC_SWD --type String
+defVar --name INVSN_SD --type String
+defVar --name ITMSNO_SD --type String
+defVar --name DOCTYPCD_SD --type String
+defVar --name ICEGATE_ID_SD --type String
+defVar --name IRN --type String
+defVar --name ISSUE_PLA_SD --type String
+defVar --name ISS_DT_SD --type String
+defVar --name PARTY_CD_SD --type String
+defVar --name EXP_DT_SD --type String
+defVar --name sd_iter --type Numeric
+defVar --name temp --type Numeric
+getFiles --path "C:\\Users\\Kunal Bhatt\\Documents\\SRF POC\\Sample_SBs_SHIPPING BILL SUMMARY" --ignorecase  file_loc=value
+excelOpen --file "C:\\Users\\Kunal Bhatt\\Desktop\\ICEGATE_S.B_FORMAT.xlsx" --savechanges  excel=value
+setVar --name "${main_rowit}" --value 3
+foreach --collection "${file_loc}" --variable "${file_path}"
+	pdfOpen --file "${file_path}" pdf1=value
+	incrementVar --number ${serial}
+	setVar --name "${serial}" --value 1
+	evaluate --expression "${main_rowit}" dfia_iter=value
+	evaluate --expression "${main_rowit}" swd_iter=value
+	evaluate --expression "${main_rowit}" sd_iter=value
+	//excelOpen --file "C:\\Users\\Kunal Bhatt\\Desktop\\ICEGATE_S.B_FORMAT.xlsx" --savechanges  excel=value
+	//pdfOpen --file "${file_path}" pdf1=value
+	pdfRegionText --language "en-US" --region "470,50,411,115" --page 1 --dpix 110 --dpiy 110 --file ${pdf1} SB_Header=value
+	//logMessage --message "${SB_Header}" --type "Info"
+	splitString --text "${SB_Header}" --delimiteroption "StandardDelimiter" --standarddelimiter "NewLine" SB_Header_list=value
+	//logMessage --message "${SB_Header_list}" --type "Info"
+	get --collection "${SB_Header_list}" --index 2 Port_Code_SB_No_SB_Date=value
+	//logMessage --message "${Port_Code_SB_No_SB_Date}" --type "Info"
+	splitString --text "${Port_Code_SB_No_SB_Date}" --delimiteroption "CustomDelimiter" --customdelimiter " " Port_Code_Split=value
+	get --collection "${Port_Code_Split}" --index 1 Port_Code_Value=value
+	get --collection "${Port_Code_Split}" --index 2 SB_No_Value=value
+	get --collection "${Port_Code_Split}" --index 3 SB_Date_Value=value
+	//logMessage --message "${Port_Code_Value}\r\n${SB_Date_Value}\r\n${SB_No_Value}" --type "Info"
+	get --collection "${SB_Header_list}" --index 3 ICE=value
+	//logMessage --message "${ICE}" --type "Info"
+	splitString --text "${ICE}" --delimiteroption "CustomDelimiter" --customdelimiter " " ICE_split=value
+	get --collection "${ICE_split}" --index 2 ICE_Value=value
+	get --collection "${SB_Header_list}" --index 14 Br_Value=value
+	concatTexts --text "${ICE_Value}" --value "/${Br_Value}" ICE_Br_Value=value
+	//logMessage --message "${ICE_Br_Value}" --type "Info"
+	get --collection "${SB_Header_list}" --index 11 GSTIN_Type=value
+	get --collection "${SB_Header_list}" --index 10 CB_Code=value
+	//logMessage --message "${CB_Code}" --type "Info"
+	//get --collection "${SB_Header_list}" --index 7 TPYE_Nos=value
+	//get --collection "${SB_Header_list}" --index 8 TPYE_Pkg=value
+	//logMessage --message "${TPYE_Nos}\r\n${TPYE_Pkg}" --type "Info"
+	get --collection "${SB_Header_list}" --index 12 INV_ITEM_CONT=value
+	splitString --text "${INV_ITEM_CONT}" --delimiteroption "CustomDelimiter" --customdelimiter " " INV_ITEM_COUNT_Split=value
+	get --collection "${INV_ITEM_COUNT_Split}" --index 1 Nos_Inv=value
+	get --collection "${INV_ITEM_COUNT_Split}" --index 2 Nos_Item=value
+	get --collection "${INV_ITEM_COUNT_Split}" --index 3 Nos_Cont=value
+	//logMessage --message "${Nos_Inv}\r\n${Nos_Item}\r\n${Nos_Cont}" --type "Info"
+	get --collection "${SB_Header_list}" --index 13 PKG_Data=value
+	splitString --text "${PKG_Data}" --delimiteroption "CustomDelimiter" --customdelimiter " " PKG_Data_Split=value
+	get --collection "${PKG_Data_Split}" --index 1 PKG_Inv=value
+	get --collection "${PKG_Data_Split}" --index 2 PKG_Item_1=value
+	get --collection "${PKG_Data_Split}" --index 3 PKG_Item_2=value
+	concatTexts --text "${PKG_Item_1}" --value "|${PKG_Item_2}" PKG_Item=value
+	get --collection "${PKG_Data_Split}" --index 4 PKG_Cont=value
+	//logMessage --message "${PKG_Inv}\r\n${PKG_Item}\r\n${PKG_Cont}" --type "Info"
+	get --collection "${SB_Header_list}" --index 15 BE_Type=value
+	//logMessage --message "${BE_Type}" --type "Info"
+	pdfRegionText --language "en-US" --region "95,214,787,80" --page 1 --dpix 110 --dpiy 110 --file ${pdf1} Status_output=value
+	splitString --text "${Status_output}" --delimiteroption "StandardDelimiter" --standarddelimiter "NewLine" Status_output_list=value
+	//logMessage --message "${Status_output_list}" --type "Info"
+	get --collection "${Status_output_list}" --index 11 Mode=value
+	splitString --text "${Mode}" --delimiteroption "CustomDelimiter" --customdelimiter " " Mode_split=value
+	get --collection "${Mode_split}" --index 1 MODE_Value=value
+	get --collection "${Mode_split}" --index 2 ASSESS_Value=value
+	get --collection "${Mode_split}" --index 3 EXMN_Value=value
+	get --collection "${Mode_split}" --index 4 JOBBING_Value=value
+	get --collection "${Mode_split}" --index 5 MEIS_Value=value
+	get --collection "${Mode_split}" --index 6 DBK_Value=value
+	get --collection "${Mode_split}" --index 7 RODTP_Value=value
+	get --collection "${Mode_split}" --index 8 DEEC_DFIA_Value=value
+	get --collection "${Mode_split}" --index 9 DFRC_Value=value
+	//logMessage --message "${MODE_Value}\r\n${ASSESS_Value}\r\n${EXMN_Value}\r\n${JOBBING_Value}\r\n${MEIS_Value}\r\n${DBK_Value}\r\n${RODTP_Value}\r\n${DEEC_DFIA_Value}\r\n${DFRC_Value}\r\n${LUT_Value}" --type "Info"
+	get --collection "${Status_output_list}" --index 12 LUT_Value=value
+	//logMessage --message "${LUT_Value}" --type "Info"
+	get --collection "${Status_output_list}" --index 2 PORT_OF_LOADING=value
+	get --collection "${Status_output_list}" --index 3 STATE_OF_ORIGIN=value
+	get --collection "${Status_output_list}" --index 4 COUNTRY_OF_FINAL_DESTINATION=value
+	get --collection "${Status_output_list}" --index 5 PORT_OF_FINAL_DESTINATION=value
+	//logMessage --message "${PORT_OF_LOADING}\r\n${STATE_OF_ORIGIN}\r\n${PORT_OF_FINAL_DESTINATION}\r\n${COUNTRY_OF_FINAL_DESTINATION}\r\n" --type "Info"
+	get --collection "${Status_output_list}" --index 13 PORT_OF_DISCHARGE=value
+	splitString --text "${PORT_OF_DISCHARGE}" --delimiteroption "CustomDelimiter" --customdelimiter " " PORT_OF_DISCHARGE_Split=value
+	get --collection "${PORT_OF_DISCHARGE_Split}" --index 4 Port_Dis=value
+	get --collection "${PORT_OF_DISCHARGE_Split}" --index 5 Port_Dis1=value
+	concatTexts --text "${Port_Dis}" --value " ${Port_Dis1}" PORT_OF_DISCHARGE_Value=value
+	get --collection "${PORT_OF_DISCHARGE_Split}" --index 9 COUNTRY_OF_DISCHARGE=value
+	//logMessage --message "${PORT_OF_DISCHARGE_Value}\r\n${COUNTRY_OF_DISCHARGE}" --type "Info"
+	pdfRegionText --language "en-US" --region "95,310,384,53" --page 1 --dpix 110 --dpiy 110 --file ${pdf1} EXP_ADD=value
+	replaceText --texttoparse "${EXP_ADD}" --useregex  --pattern "2\\.Type\\s+[A-Za-z]+" --regexOptions "0" EXPORTER_NAME_ADDRESS=value
+	replaceText --texttoparse "${EXPORTER_NAME_ADDRESS}" --textpattern COP EXPORTER_NAME_ADDRESS=value
+	replaceText --texttoparse "${EXP_ADD}" --useregex  --pattern "[\\r\\n]+" --regexOptions "0" EXP_ADD=value
+	splitString --text "${EXP_ADD}" --delimiteroption "StandardDelimiter" --standarddelimiter "Space" EXP_ADD_list=value
+	get --collection "${EXP_ADD_list}" --index "${EXP_ADD_list.Count}" TYPE=value
+	//logMessage --message "${EXPORTER_NAME_ADDRESS}\r\n${TYPE}" --type "Info"
+	pdfRegionText --language "en-US" --region "481,309,401,53" --page 1 --dpix 110 --dpiy 110 --file ${pdf1} CON_ADD=value
+	replaceText --texttoparse "${CON_ADD}" --textpattern COPY CONSIGNEE_NAME_ADDRESS=value
+	//logMessage --message "${CONSIGNEE_NAME_ADDRESS}" --type "Info"
+	pdfRegionText --language "en-US" --region "97,364,777,57" --page 1 --dpix 110 --dpiy 110 --file ${pdf1} DECL_DETAILS=value
+	splitString --text "${DECL_DETAILS}" --delimiteroption "StandardDelimiter" --standarddelimiter "NewLine" DECL_DETAILS_list=value
+	//logMessage --message "${DECL_DETAILS_list}" --type "Info"
+	get --collection "${DECL_DETAILS_list}" --index 5 ADD_Code=value
+	replaceText --texttoparse "${ADD_Code}" --textpattern "3. AD CODE:" AD_CODE=value
+	get --collection "${DECL_DETAILS_list}" --index 2 CB_NAME=value
+	get --collection "${DECL_DETAILS_list}" --index 3 FOREX_BANK_AC_NO=value
+	get --collection "${DECL_DETAILS_list}" --index 4 DBK_BANK_AC_NO=value
+	get --collection "${DECL_DETAILS_list}" --index 12 IFSC_NO=value
+	//logMessage --message "${AD_CODE}\r\n${CB_NAME}\r\n${FOREX_BANK_AC_NO}\r\n${DBK_BANK_AC_NO}\r\n${IFSC_NO}\r\n" --type "Info"
+	pdfRegionText --language "en-US" --region "95,418,387,281" --page 1 --dpix 110 --dpiy 110 --file ${pdf1} C_Value=value
+	splitString --text "${C_Value}" --delimiteroption "StandardDelimiter" --standarddelimiter "NewLine" C_Value_list=value
+	//logMessage --message "${C_Value_list}" --type "Info"
+	get --collection "${C_Value_list}" --index 2 FOB_VALUE=value
+	get --collection "${C_Value_list}" --index 9 FREIGHT=value
+	splitString --text "${FREIGHT}" --delimiteroption "CustomDelimiter" --customdelimiter " " FREIGHT_Split=value
+	get --collection "${FREIGHT_Split}" --index 1 FREIGHT_Value=value
+	get --collection "${FREIGHT_Split}" --index 2 INSURANC_Value=value
+	get --collection "${FREIGHT_Split}" --index 3 DISCOU_Value=value
+	get --collection "${FREIGHT_Split}" --index 4 COM_Value=value
+	//logMessage --message "${C_Value_list}\r\n\r\n${FOB_VALUE}\r\n${FREIGHT_Value}\r\n${INSURANC_Value}\r\n${DISCOU_Value}\r\n${COM_Value}" --type "Info"
+	get --collection "${C_Value_list}" --index 10 DEDUC=value
+	splitString --text "${DEDUC}" --delimiteroption "CustomDelimiter" --customdelimiter " " DEDUC_Split=value
+	get --collection "${DEDUC_Split}" --index 1 DEDUCTIONS_Value=value
+	get --collection "${DEDUC_Split}" --index 2 PC_Value=value
+	//logMessage --message "${DEDUC_Split}\r\n${DEDUCTIONS_Value}\r\n${PC_Value}" --type "Info"
+	get --collection "${C_Value_list}" --index 14 EMAIN_Details=value
+	splitString --text "${EMAIN_Details}" --delimiteroption "CustomDelimiter" --customdelimiter " " EMAIN_Details_Split=value
+	get --collection "${EMAIN_Details_Split}" --index 1 CIN_NO=value
+	get --collection "${EMAIN_Details_Split}" --index 2 CIN_DT=value
+	get --collection "${EMAIN_Details_Split}" --index 3 CIN_SITE_ID=value
+	//logMessage --message "${CIN_NO}\r\n${CIN_DT}\r\n${CIN_SITE_ID}" --type "Info"
+	get --collection "${C_Value_list}" --index 11 EQP_Details=value
+	splitString --text "${EQP_Details}" --delimiteroption "CustomDelimiter" --customdelimiter " " EQP_Details_Split=value
+	get --collection "${EQP_Details_Split}" --index 1 CONTAINER=value
+	get --collection "${EQP_Details_Split}" --index 2 SEAL=value
+	get --collection "${EQP_Details_Split}" --index 3 DATE=value
+	get --collection "${EQP_Details_Split}" --index 4 S_No=value
+	//logMessage --message "${CONTAINER}\r\n${SEAL}\r\n${DATE}\r\n${S_No}\r\n\r\n-------------------------------" --type "Info"
+	pdfRegionText --language "en-US" --region "522,418,356,284" --page 1 --dpix 110 --dpiy 110 --file ${pdf1} EXPR=value
+	splitString --text "${EXPR}" --delimiteroption "StandardDelimiter" --standarddelimiter "NewLine" EXPPR_Split=value
+	//logMessage --message "${EXPPR_Split}" --type "Info"
+	get --collection "${EXPPR_Split}" --index 5 DBK_CLAIM=value
+	get --collection "${EXPPR_Split}" --index 8 IGST_AMT=value
+	get --collection "${EXPPR_Split}" --index 7 IGST_VALUE=value
+	get --collection "${EXPPR_Split}" --index 16 RODTEP_AMT=value
+	get --collection "${EXPPR_Split}" --index 18 ROSCTL_AMT=value
+	//logMessage --message "${DBK_CLAIM}\r\n${IGST_AMT}\r\n${IGST_VALUE}\r\n${RODTEP_AMT}\r\n${ROSCTL_AMT}" --type "Info"
+	get --collection "${EXPPR_Split}" --index 2 INV_SUM=value
+	splitString --text "${INV_SUM}" --delimiteroption "CustomDelimiter" --customdelimiter " " INV_SUM_Split=value
+	get --collection "${INV_SUM_Split}" --index 1 SNO=value
+	get --collection "${INV_SUM_Split}" --index 2 INV_NO=value
+	get --collection "${INV_SUM_Split}" --index 3 INV_AMT=value
+	get --collection "${INV_SUM_Split}" --index 4 CURRENC=value
+	//logMessage --message "${SNO}\r\n${INV_NO}\r\n${INV_AMT}\r\n${CURRENC}" --type "Info"
+	pdfRegionText --language "en-US" --region "95,720,788,14" --page 1 --dpix 110 --dpiy 110 --file ${pdf1} ANNEX_Details=value
+	splitString --text "${ANNEX_Details}" --delimiteroption "CustomDelimiter" --customdelimiter " " ANNEX_Details_Split=value
+	get --collection "${ANNEX_Details_Split}" --index 1 SEAL=value
+	get --collection "${ANNEX_Details_Split}" --index 2 SEAL1=value
+	concatTexts --text "${SEAL}" --value " ${SEAL1}" SEAL_TYPE=value
+	replaceText --texttoparse "${SEAL_TYPE}" --textpattern LET SEAL_TYPE=value
+	get --collection "${ANNEX_Details_Split}" --index 3 NATURE_OF_CARGO=value
+	get --collection "${ANNEX_Details_Split}" --index 4 NO_OF_PACKETS=value
+	get --collection "${ANNEX_Details_Split}" --index 5 NO_OF_CONTAINERS=value
+	get --collection "${ANNEX_Details_Split}" --index 6 LOOSE_PACKETS=value
+	//logMessage --message "${SEAL_TYPE}\r\n${NATURE_OF_CARGO}\r\n${NO_OF_PACKETS}\r\n${NO_OF_CONTAINERS}\r\n${LOOSE_PACKETS}" --type "Info"
+	pdfRegionText --language "en-US" --region "98,737,779,70" --page 1 --dpix 110 --dpiy 110 --file ${pdf1} MARKS_NUM=value
+	replaceText --texttoparse "${MARKS_NUM}" --textpattern "6.MARKS & NUMBERS" MARKS_NUM=value
+	replaceText --texttoparse "${MARKS_NUM}" --textpattern LET MARKS_NUMBERS=value
+	//logMessage --message "${MARKS_NUMBERS}" --type "Info"
+	pdfRegionText --language "en-US" --region "95,813,784,105" --page 1 --dpix 110 --dpiy 110 --file ${pdf1} PROC_Details=value
+	splitString --text "${PROC_Details}" --delimiteroption "StandardDelimiter" --standarddelimiter "NewLine" PROC_Details_Split=value
+	//logMessage --message "${PROC_Details_Split}" --type "Info"
+	get --collection "${PROC_Details_Split}" --index 7 Submission_Date_Time=value
+	splitString --text "${Submission_Date_Time}" --delimiteroption "CustomDelimiter" --customdelimiter " " Submission_Date_Time_Split=value
+	get --collection "${Submission_Date_Time_Split}" --index 1 Submission_Date=value
+	get --collection "${Submission_Date_Time_Split}" --index 2 Submission_Time=value
+	get --collection "${PROC_Details_Split}" --index 11 LEO_NO=value
+	get --collection "${PROC_Details_Split}" --index 12 LEO_Date=value
+	get --collection "${PROC_Details_Split}" --index 13 BRC_Realisation_Date=value
+	get --collection "${PROC_Details_Split}" --index 14 EXM_Date_Time=value
+	splitString --text "${EXM_Date_Time}" --delimiteroption "CustomDelimiter" --customdelimiter " " EXM_Date_Time_Split=value
+	get --collection "${EXM_Date_Time_Split}" --index 1 Examination_Date=value
+	get --collection "${EXM_Date_Time_Split}" --index 2 Examination_Time=value
+	get --collection "${PROC_Details_Split}" --index 15 LEO_Date_Time=value
+	splitString --text "${LEO_Date_Time}" --delimiteroption "CustomDelimiter" --customdelimiter " " LEO_Date_Time_Split=value
+	get --collection "${LEO_Date_Time_Split}" --index 1 EVENT_LEO_Date=value
+	get --collection "${LEO_Date_Time_Split}" --index 2 EVENT_LEO_Time=value
+	//logMessage --message "${EVENT_LEO_Date}\r\n${EVENT_LEO_Time}\r\n------------------------------" --type "Info"
+	//logMessage --message "${Submission_Date}\r\n${Submission_Time}\r\n${LEO_NO}\r\n${LEO_Date}\r\n${BRC_Realisation_Date}\r\n${Examination_Date}\r\n${Examination_Time}\r\n${EVENT_LEO_Date}\r\n${EVENT_LEO_Time}" --type "Info"
+	//pdfOpen --file "C:\\Users\\Ravi\\Desktop\\SRF_POC\\2216210790 _SB.pdf" pdf2=value
+	pdfRegionText --language "en-US" --region "98,215,782,32" --page 2 --dpix 110 --dpiy 110 --file ${pdf1} REF_Details=value
+	splitString --text "${REF_Details}" --delimiteroption "StandardDelimiter" --standarddelimiter "NewLine" REF_Details_Split=value
+	get --collection "${REF_Details_Split}" --index 2 SNO_REF=value
+	splitString --text "${SNO_REF}" --delimiteroption "CustomDelimiter" --customdelimiter " " SNO_REF_Split=value
+	get --collection "${SNO_REF_Split}" --index 1 REF_S_No=value
+	get --collection "${SNO_REF_Split}" --index 2 REF_INVOICE_No=value
+	get --collection "${SNO_REF_Split}" --index 3 REF_INVOICE_Dt=value
+	concatTexts --text "${REF_INVOICE_No}" --value " ${REF_INVOICE_Dt}" INVOICE_No_Dt=value
+	get --collection "${REF_Details_Split}" --index 5 REF_AD_Code=value
+	get --collection "${REF_Details_Split}" --index 4 REF_INVTERM=value
+	//logMessage --message "${REF_S_No}\r\n${INVOICE_No_Dt}\r\n${REF_AD_Code}\r\n${REF_INVTERM}" --type "Info"
+	pdfRegionText --language "en-US" --region "99,249,378,84" --page 2 --dpix 110 --dpiy 110 --file ${pdf1} Parties_EXP_ADD=value
+	replaceText --texttoparse "${Parties_EXP_ADD}" --textpattern "1.EXPORTER\'S NAME & ADDRESS" PARTIES_EXPORTERS_NAME_ADDRESS=value
+	pdfRegionText --language "en-US" --region "96,337,385,87" --page 2 --dpix 110 --dpiy 110 --file ${pdf1} THIRD_PARTY_ADD=value
+	pdfRegionText --language "en-US" --region "481,248,397,84" --page 2 --dpix 110 --dpiy 110 --file ${pdf1} BUYER_NAME_ADD=value
+	replaceText --texttoparse "${BUYER_NAME_ADD}" --textpattern PY BUY_NAME_ADD=value
+	replaceText --texttoparse "${BUY_NAME_ADD}" --textpattern "2.BUYER\'S NAME & ADDRESS" PARTIES_BUYERS_NAME_ADDRESS=value
+	pdfRegionText --language "en-US" --region "481,337,396,84" --page 2 --dpix 110 --dpiy 110 --file ${pdf1} BUYER_AEO_STATUS=value
+	//logMessage --message "${PARTIES_BUYERS_NAME_ADDRESS}" --type "Info"
+	pdfRegionText --language "en-US" --region "97,427,779,42" --page 2 --dpix 110 --dpiy 110 --file ${pdf1} C_VAL_DTIL=value
+	splitString --text "${C_VAL_DTIL}" --delimiteroption "StandardDelimiter" --standarddelimiter "NewLine" C_VAL_DTIL_Split=value
+	get --collection "${C_VAL_DTIL_Split}" --index 3 INV_VAL=value
+	get --collection "${C_VAL_DTIL_Split}" --index 4 INV_VAL1=value
+	concatTexts --text "${INV_VAL}" --value "\r\n${INV_VAL1}" INVOICE_VALUE=value
+	get --collection "${C_VAL_DTIL_Split}" --index 6 FB_VAL=value
+	get --collection "${C_VAL_DTIL_Split}" --index 7 FB_VAL1=value
+	concatTexts --text "${FB_VAL}" --value "\r\n${FB_VAL1}" INVOICE_FOB_VALUE=value
+	get --collection "${C_VAL_DTIL_Split}" --index 10 C_FRE=value
+	splitString --text "${C_FRE}" --delimiteroption "CustomDelimiter" --customdelimiter " " C_FRE_Split=value
+	get --collection "${C_VAL_DTIL_Split}" --index 11 C_INSU=value
+	splitString --text "${C_INSU}" --delimiteroption "CustomDelimiter" --customdelimiter " " C_INSU_Split=value
+	get --collection "${C_FRE_Split}" --index 1 C_FREIGHT=value
+	get --collection "${C_INSU_Split}" --index 2 C_FREIGHT1=value
+	concatTexts --text "${C_FREIGHT}" --value "\r\n${C_FREIGHT1}" INVOICE_FREIGHT=value
+	get --collection "${C_FRE_Split}" --index 2 C_INSURANCE=value
+	get --collection "${C_INSU_Split}" --index 1 C_INSURANCE1=value
+	concatTexts --text "${C_INSURANCE}" --value "\r\n${C_INSURANCE1}" INVOICE_INSURANCE=value
+	get --collection "${C_VAL_DTIL_Split}" --index 12 DIC_COM_DED=value
+	splitString --text "${DIC_COM_DED}" --delimiteroption "CustomDelimiter" --customdelimiter " " DIC_COM_DED_Split=value
+	get --collection "${DIC_COM_DED_Split}" --index 1 INVOICE_DISCOUNT=value
+	get --collection "${DIC_COM_DED_Split}" --index 2 INVOICE_COMMISON=value
+	get --collection "${DIC_COM_DED_Split}" --index 3 INVOICE_DEDUCT=value
+	get --collection "${C_VAL_DTIL_Split}" --index 9 INVOICE_EXCHANGE_RATE=value
+	//logMessage --message "${INVOICE_EXCHANGE_RATE}" --type "Info"
+	pdfRegionText --language "en-US" --region "96,474,63,606" --page 2 --dpix 110 --dpiy 110 --file ${pdf1} Item_SNo=value
+	splitString --text "${Item_SNo}" --delimiteroption "StandardDelimiter" --standarddelimiter "NewLine" Item_SNo_Split=value
+	get --collection "${Item_SNo_Split}" --index 1 ITEM_Details_Item_SNo=value
+	pdfRegionText --language "en-US" --region "167,476,76,593" --page 2 --dpix 110 --dpiy 110 --file ${pdf1} HSCD=value
+	splitString --text "${HSCD}" --delimiteroption "StandardDelimiter" --standarddelimiter "NewLine" HSCD_Split=value
+	get --collection "${HSCD_Split}" --index 2 ITEM_Details_HS_CD=value
+	pdfRegionText --language "en-US" --region "552,477,76,596" --page 2 --dpix 110 --dpiy 110 --file ${pdf1} QUANTITY=value
+	splitString --text "${QUANTITY}" --delimiteroption "StandardDelimiter" --standarddelimiter "NewLine" QUANTITY_Split=value
+	get --collection "${QUANTITY_Split}" --index 1 ITEM_Details_QUANTITY=value
+	pdfRegionText --language "en-US" --region "635,476,67,600" --page 2 --dpix 110 --dpiy 110 --file ${pdf1} ITEM_UQC=value
+	splitString --text "${ITEM_UQC}" --delimiteroption "StandardDelimiter" --standarddelimiter "NewLine" ITEM_UQC_Split=value
+	get --collection "${ITEM_UQC_Split}" --index 1 ITEM_Details_UQC=value
+	pdfRegionText --language "en-US" --region "709,476,46,602" --page 2 --dpix 110 --dpiy 110 --file ${pdf1} ITEM_RATE=value
+	splitString --text "${ITEM_RATE}" --delimiteroption "StandardDelimiter" --standarddelimiter "NewLine" ITEM_RATE_Split=value
+	get --collection "${ITEM_RATE_Split}" --index 1 ITEM_Details_RATE=value
+	pdfRegionText --language "en-US" --region "759,475,116,595" --page 2 --dpix 110 --dpiy 110 --file ${pdf1} ITEM_VALUE_FC=value
+	splitString --text "${ITEM_VALUE_FC}" --delimiteroption "StandardDelimiter" --standarddelimiter "NewLine" ITEM_VALUE_FC_Split=value
+	get --collection "${ITEM_VALUE_FC_Split}" --index 1 ITEM_Details_VALUE_FC=value
+	//logMessage --message "${ITEM_Details_VALUE_FC}" --type "Info" --comment "BELOW THIS PAGE 3"
+	//pdfOpen --file "C:\\Users\\Kunal Bhatt\\Documents\\SRF POC\\Sample_SBs_SHIPPING BILL SUMMARY\\2216210790 _SB.pdf" pdf1=value
+	pdfRegionText --language "en-US" --region "83,223,803,185" --page 3 --dpix 110 --dpiy 110 --file ${pdf1} doc3=value
+	replaceText --texttoparse "${doc3}" --useregex  --pattern "[\\r\\n]+" --regexOptions "0" --replacement " " out=value
+	splitString --text "${out}" --delimiteroption "CustomDelimiter" --customdelimiter " " split=value
+	getRegex --text "${split}" --regexPattern "MTS|KGS" --regexOptions "0" regex1=value
+	//logMessage --message "${split}" --type "Info"
+	count --collection "${split}" split_len=value
+	indexOf --value "${regex1}" --collection "${split}" index=value
+	evaluate --expression "${index} - 1" index_dec=value
+	evaluate --expression "${index} - 2" index=value
+	for --variable ${k} --from 1 --to ${split_len} --step 1
+		if --left "${k}" --operator "Equal_To" --right 4
+			for --variable ${i} --from 4 --to ${index} --step 1
+				get --collection "${split}" --index "${i}" item=value
+				concatTexts --text "${DESCRIPTION_Value}" --value " ${item}" DESCRIPTION_Value=value
+			next
+		elseIf --left "${k}" --operator "Equal_To" --right "${index}"
+			incrementVar --number ${k}
+			evaluate --expression "${k}+4" k=value
+			get --collection "${split}" --index "${k}" FOB=value
+			evaluate --expression "${k}+1" k=value
+			get --collection "${split}" --index "${k}" PMV=value
+			evaluate --expression "${k}+14" k=value
+			get --collection "${split}" --index "${k}" DBKCLMD=value
+			evaluate --expression "${k}+1" k=value
+			get --collection "${split}" --index "${k}" IGSTSTAT=value
+			evaluate --expression "${k}+1" k=value
+			get --collection "${split}" --index "${k}" IGST_value=value
+			evaluate --expression "${k}+1" k=value
+			get --collection "${split}" --index "${k}" IGST_amount=value
+			evaluate --expression "${k}+1" k=value
+			get --collection "${split}" --index "${k}" SCHCOD=value
+			evaluate --expression "${k}+16" k=value
+			get --collection "${split}" --index "${k}" END_use=value
+			evaluate --expression "${k}+1" k=value
+			get --collection "${split}" --index "${k}" Reward_Benefit=value
+			evaluate --expression "${k}+1" k=value
+			get --collection "${split}" --index "${k}" Third_Party_Item=value
+			evaluate --expression "${k}+13" k=value
+			get --collection "${split}" --index "${k}" SQC_MSR=value
+			evaluate --expression "${k}+1" k=value
+			get --collection "${split}" --index "${k}" SQC_UQC=value
+			evaluate --expression "${k}+1" k=value
+			get --collection "${split}" --index "${k}" State_Of_Origin=value
+			evaluate --expression "${k}+1" k=value
+			get --collection "${split}" --index "${k}" District_Of_Origin=value
+			evaluate --expression "${k}+1" k=value
+			get --collection "${split}" --index "${k}" FTA_BA=value
+			evaluate --expression "${k}+1" k=value
+			get --collection "${split}" --index "${k}" COMP_CESS=value
+			evaluate --expression "${k}+1" k=value
+			get --collection "${split}" --index "${k}" item=value
+			concatTexts --text "${COMP_CESS}" --value " ${item}" COMP_CESS=value
+			evaluate --expression "${k}+3" k=value
+			get --collection "${split}" --index "${k}" PT_Abroad=value
+			evaluate --expression "${k}+7" k=value
+			get --collection "${split}" --index "${k}" Scheme_Description=value
+			evaluate --expression "${k}+1" k=value
+			get --collection "${split}" --index "${k}" item=value
+			concatTexts --text "${Scheme_Description}" --value " ${item}" Scheme_Description=value
+		else
+		endIf
+	next
+	//logMessage --message "${DESCRIPTION_Value}\r\n-------------\r\n${FOB}\r\n-------------\r\n${PMV}\r\n-------------\r\n${DBKCLMD}\r\n-------------\r\n${IGSTSTAT}\r\n-------------\r\n${IGST_value}\r\n-------------\r\n${IGST_amount}\r\n-------------\r\n${SCHCOD}\r\n-------------\r\n${END_use}\r\n-------------\r\n${Reward_Benefit}\r\n-------------\r\n${Third_Party_Item}\r\n-------------\r\n${SQC_MSR}\r\n-------------\r\n${SQC_UQC}\r\n-------------\r\n${State_of_Origin}\r\n-------------\r\n${district_of_origin}\r\n-------------\r\n${FTA_BA}\r\n-------------\r\n${COMP_CESS}\r\n-------------\r\n${PT_Abroad}\r\n-------------\r\n${Scheme_Description}\r\n" --type "Info"
+	
+	//pdfOpen --file "C:\\Users\\Kunal Bhatt\\Documents\\SRF POC\\Sample_SBs_SHIPPING BILL SUMMARY\\2216210790 _SB.pdf" --comment "Below this page 4" pdf=value
+	for --variable ${i} --from 207 --to 942 --step 20
+		//logMessage --message "${i}" --type "Info"
+		setVar --name "${region}" --value "98,${i},781,19"
+		pdfRegionText --language "en-US" --region "${region}" --page 4 --dpix 110 --dpiy 110 --file ${pdf1} rowit=value
+		if --left "${rowit}" --operator "Is_Null_Or_Empty"
+			logMessage --message empty --type "Info"
+		else
+			splitString --text "${rowit}" --delimiteroption "StandardDelimiter" --standarddelimiter "NewLine" split_1=value
+		endIf
+		if --left "${i}" --operator "Greater_Than" --right 227
+			if --left "${i}" --operator "Less_Than" --right 938
+				removeAt --index 1 --collection "${split_1}"
+			endIf
+		endIf
+		isMatch --text "${split_1}" --regexPattern "DRAWBACK|LICENCE|JOBBING|WINDOW|SUPPORTING|DETAILS|DESCN OF IMPORT ITEM" --regexOptions "0" tf=value
+		isMatch --text "${split_1}" --regexPattern Glossary --regexOptions "0" tf2=value
+		isMatch --text "${split}" --regexPattern "H.INVOICE DETAILS" --regexOptions "0" toru=value
+		isMatch --text "${split}" --regexPattern "D. SINGLE WINDOW DECLARATION" --regexOptions "0" ooc=value
+		//logMessage --message "${tf}" --type "Info"
+		if --left "${tf}" --operator "Equal_To" --right True
+			if --left "${split_1}" --operator "Contains" --right "B. AA / DFIA LICENCE DETAILS"
+				evaluate --expression "${i} + 55" i=value
+				for --variable ${n} --from ${i} --to 1201 --step 13
+					setVar --name "${region}" --value "97,${n},781,11"
+					pdfRegionText --language "en-US" --region "${region}" --page 4 --dpix 110 --dpiy 110 --file ${pdf1} doc5=value
+					if --left "${doc5}" --operator "Is_Null_Or_Empty"
+						logMessage --message empty --type "Info"
+					else
+						splitString --text "${doc5}" --delimiteroption "StandardDelimiter" --standarddelimiter "NewLine" split=value
+					endIf
+					isMatch --text "${split}" --regexPattern "DRAWBACK|LICENCE|JOBBING|WINDOW|SUPPORTING|DETAILS|DESCN OF IMPORT ITEM" --regexOptions "0" tf=value
+					if --left "${n}" --operator "Greater_Than" --right 227
+						if --left "${n}" --operator "Less_Than" --right 938
+							removeAt --index 1 --collection "${split}"
+						endIf
+					endIf
+					if --left "${tf}" --operator "Equal_To" --right True
+						break
+					elseIf --left "${split}" --operator "Is_Empty" --negate 
+						if --left "${split}" --operator "Is_Null_Or_Empty" --negate 
+							isMatch --text "${split}" --regexPattern "INVSN|BE NO|1.SNO" --regexOptions "0" occ=value
+							if --left "${occ}" --operator "Equal_To" --right True
+								continue
+							elseIf --left "${prev_data}" --operator "Contains" --right "${split}"
+							elseIf --left "${split}" --operator "Contains" --right Glossary --comment glossary
+								break
+							else
+								//logMessage --message "${split}" --type "Info"
+								//logMessage --message "${i}" --type "Info"
+								setVar --name "${prev_data}" --value "${split}"
+							endIf
+						endIf
+					else
+						logMessage --message empty --type "Info"
+						evaluate --expression "${i} - 8" i=value
+						break
+					endIf
+				next
+			else
+				evaluate --expression "${i} + 40" i=value
+			endIf
+			//logMessage --message "after   ${i}" --type "Info"
+			for --variable ${n} --from ${i} --to 1201 --step 13
+				setVar --name "${region}" --value "97,${n},781,11"
+				pdfRegionText --language "en-US" --region "${region}" --page 4 --dpix 110 --dpiy 110 --file ${pdf1} doc5=value
+				if --left "${doc5}" --operator "Is_Null_Or_Empty"
+					logMessage --message empty --type "Info"
+				else
+					splitString --text "${doc5}" --delimiteroption "StandardDelimiter" --standarddelimiter "NewLine" split=value
+				endIf
+				isMatch --text "${split}" --regexPattern "DRAWBACK|LICENCE|JOBBING|WINDOW|SUPPORTING|DETAILS|DESCN OF IMPORT ITEM" --regexOptions "0" tf=value
+				if --left "${n}" --operator "Greater_Than" --right 227
+					if --left "${n}" --operator "Less_Than" --right 877
+						removeAt --index 1 --collection "${split}"
+					endIf
+				endIf
+				if --left "${tf}" --operator "Equal_To" --right True
+					break
+				elseIf --left "${split}" --operator "Is_Empty" --negate 
+					//if --left "${split}" --operator "Is_Null_Or_Empty" --negate
+					isMatch --text "${split}" --regexPattern "INVSN|BE NO|1.SNO" --regexOptions "0" occ=value
+					if --left "${occ}" --operator "Equal_To" --right True
+						continue
+					elseIf --left "${prev_data}" --operator "Contains" --right "${split}"
+					elseIf --left "${split}" --operator "Contains" --right "H.INVOICE DETAILS"
+						break
+					elseIf --left "${split}" --operator "Contains" --right Glossary --comment glossary
+						break
+					else
+						count --collection "${split}" split_count=value
+						if --left "${split_count}" --operator "Equal_To" --right 9
+							continue
+						elseIf --left "${split_count}" --operator "Equal_To" --right 14
+							continue
+						else
+							//logMessage --message "${n}" --type "Info"
+							if --left "${n}" --operator "Greater_Than_Equal_To" --right 606
+								if --left "${n}" --operator "Less_Than_Equal_To" --right 695
+									setVar --name "${n}" --value 851
+									for --variable ${o} --from 612 --to 682 --step 14
+										setVar --name "${region}" --value "97,${o},781,12"
+										pdfRegionText --language "en-US" --region "${region}" --page 4 --dpix 110 --dpiy 110 --file ${pdf1} doc_last=value
+										splitString --text "${doc_last}" --delimiteroption "StandardDelimiter" --standarddelimiter "NewLine" split=value
+										removeAt --index 1 --collection "${split}"
+										//logMessage --message "${split}" --type "Info"
+										get --collection "${split}" --index 1 INVSN=value
+										get --collection "${split}" --index 2 ITMSN=value
+										get --collection "${split}" --index 3 INFO=value
+										get --collection "${split}" --index 4 QUALIFIER=value
+										get --collection "${split}" --index 5 INFO_CD=value
+										count --collection "${split}" cc=value
+										if --left "${INFO_CD}" --operator "Equal_To" --right 0
+											setVar --name "${INFO_MSR}" --value "${INFO_CD}"
+											setVar --name "${INFO_CD}" --value Empty
+										elseIf --left "${INFO_CD}" --operator "Equal_To" --right 12700
+											setVar --name "${INFO_MSR}" --value "${INFO_CD}"
+											setVar --name "${INFO_CD}" --value Empty
+										else
+											setVar --name "${INFO_CD}" --value "${INFO_CD}"
+										endIf
+										if --left "${cc}" --operator "Equal_To" --right 6
+											get --collection "${split}" --index 6 INFO_TEXT=value
+											if --left "${INFO_TEXT}" --operator "Contains" --right "Not Claimed"
+												setVar --name "${INFO_TEXT}" --value "${INFO_TEXT}"
+											elseIf --left "${INFO_TEXT}" --operator "Contains" --right INR
+												setVar --name "${UQC_SWD}" --value "${INFO_TEXT}"
+											elseIf --left "${INFO_TEXT}" --operator "Contains" --right KGS
+												setVar --name "${UQC_SWD}" --value "${INFO_TEXT}"
+											else
+												setVar --name "${INFO_TEXT}" --value Empty
+												setVar --name "${INFO_MSR}" --value Empty
+												setVar --name "${UQC_SWD}" --value Empty
+											endIf
+										else
+											setVar --name "${INFO_TEXT}" --value Empty
+											setVar --name "${INFO_MSR}" --value Empty
+											setVar --name "${UQC_SWD}" --value Empty
+										endIf
+										excelSet --value "${INVSN}" --file ${excel} --getfirstsheet  --usingcell  --cell "FZ${swd_iter}"
+										excelSet --value "${ITMSN}" --file ${excel} --getfirstsheet  --usingcell  --cell "GA${swd_iter}"
+										excelSet --value "${INFO}" --file ${excel} --getfirstsheet  --usingcell  --cell "GB${swd_iter}"
+										excelSet --value "${QUALIFIER}" --file ${excel} --getfirstsheet  --usingcell  --cell "GC${swd_iter}"
+										excelSet --value "${INFO_CD}" --file ${excel} --getfirstsheet  --usingcell  --cell "GD${swd_iter}"
+										excelSet --value "${INFO_TEXT}" --file ${excel} --getfirstsheet  --usingcell  --cell "GE${swd_iter}"
+										excelSet --value "${INFO_MSR}" --file ${excel} --getfirstsheet  --usingcell  --cell "GF${swd_iter}"
+										excelSet --value "${UQC_SWD}" --file ${excel} --getfirstsheet  --usingcell  --cell "GG${swd_iter}"
+										incrementVar --number ${swd_iter}
+									next
+								endIf
+							elseIf --left "${n}" --operator "Greater_Than" --right 695
+								for --variable ${o} --from 846 --to 1031 --step 14
+									setVar --name "${region}" --value "97,${o},781,12"
+									pdfRegionText --language "en-US" --region "${region}" --page 4 --dpix 110 --dpiy 110 --file ${pdf1} doc_last=value
+									splitString --text "${doc_last}" --delimiteroption "StandardDelimiter" --standarddelimiter "NewLine" split=value
+									if --left "${o}" --operator "Less_Than_Equal_To" --right 860
+										removeAt --index 1 --collection "${split}"
+									endIf
+									if --left "${split}" --operator "Contains" --right "H.INVOICE DETAILS"
+										break
+									endIf
+									//logMessage --message "${split}" --type "Info"
+									get --collection "${split}" --index 1 INVSN_SD=value
+									get --collection "${split}" --index 2 ITMSNO_SD=value
+									get --collection "${split}" --index 3 DOCTYPCD_SD=value
+									get --collection "${split}" --index 4 ICEGATE_ID_SD=value
+									get --collection "${split}" --index 5 IRN=value
+									get --collection "${split}" --index 6 ISSUE_PLA_SD=value
+									get --collection "${split}" --index 7 ISS_DT_SD=value
+									setVar --name "${PARTY_CD_SD}" --value Empty
+									setVar --name "${EXP_DT_SD}" --value Empty
+									excelSet --value "${INVSN_SD}" --file ${excel} --getfirstsheet  --usingcell  --cell "GX${sd_iter}"
+									excelSet --value "${ITMSNO_SD}" --file ${excel} --getfirstsheet  --usingcell  --cell "GY${sd_iter}"
+									excelSet --value "${DOCTYPCD_SD}" --file ${excel} --getfirstsheet  --usingcell  --cell "GZ${sd_iter}"
+									excelSet --value "${ICEGATE_ID_SD}" --file ${excel} --getfirstsheet  --usingcell  --cell "HA${sd_iter}"
+									excelSet --value "${IRN}" --file ${excel} --getfirstsheet  --usingcell  --cell "HB${sd_iter}"
+									excelSet --value "${PARTY_CD_SD}" --file ${excel} --getfirstsheet  --usingcell  --cell "HC${sd_iter}"
+									excelSet --value "${ISSUE_PLA_SD}" --file ${excel} --getfirstsheet  --usingcell  --cell "HD${sd_iter}"
+									excelSet --value "${ISS_DT_SD}" --file ${excel} --getfirstsheet  --usingcell  --cell "HE${sd_iter}"
+									excelSet --value "${EXP_DT_SD}" --file ${excel} --getfirstsheet  --usingcell  --cell "HF${sd_iter}"
+									incrementVar --number ${sd_iter}
+								next
+							else
+								//logMessage --message "${split}" --type "Info"
+								setVar --name "${prev_data}" --value "${split}"
+								if --left "${split_count}" --operator "Equal_To" --right 15
+									if --left "${i}" --operator "Less_Than_Equal_To" --right 607
+										get --collection "${split}" --index 1 INV_SNO=value
+										get --collection "${split}" --index 2 ITEM_SNO=value
+										get --collection "${split}" --index 3 DESCN_OF_EXPORT_ITEM=value
+										get --collection "${split}" --index 4 EXP_SNO=value
+										get --collection "${split}" --index 5 EXPQTY=value
+										get --collection "${split}" --index 6 UQC=value
+										get --collection "${split}" --index 7 DESCN_OF_IMPORT_ITEM=value
+										get --collection "${split}" --index 8 IMP_SNO=value
+										get --collection "${split}" --index 9 IMPQT=value
+										get --collection "${split}" --index 11 INDIG=value
+										get --collection "${split}" --index 12 LICENCE_NO=value
+										get --collection "${split}" --index 13 SION=value
+										get --collection "${split}" --index 14 FOB_VALUE=value
+										excelSet --value "${INV_SNO}" --file ${excel} --getfirstsheet  --usingcell  --cell "FG${dfia_iter}"
+										excelSet --value "${Item_SNo}" --file ${excel} --getfirstsheet  --usingcell  --cell "FH${dfia_iter}"
+										excelSet --value "${LICENCE_NO}" --file ${excel} --getfirstsheet  --usingcell  --cell "FI${dfia_iter}"
+										excelSet --value "${DESCN_OF_EXPORT_ITEM}" --file ${excel} --getfirstsheet  --usingcell  --cell "FJ${dfia_iter}"
+										excelSet --value "${EXP_SNO}" --file ${excel} --getfirstsheet  --usingcell  --cell "FK${dfia_iter}"
+										excelSet --value "${EXPQTY}" --file ${excel} --getfirstsheet  --usingcell  --cell "FL${dfia_iter}"
+										excelSet --value "${UQC}" --file ${excel} --getfirstsheet  --usingcell  --cell "FM${dfia_iter}"
+										excelSet --value "${FOB_VALUE}" --file ${excel} --getfirstsheet  --usingcell  --cell "FN${dfia_iter}"
+										excelSet --value "${SION}" --file ${excel} --getfirstsheet  --usingcell  --cell "FO${dfia_iter}"
+										excelSet --value "${DESCN_OF_IMPORT_ITEM}" --file ${excel} --getfirstsheet  --usingcell  --cell "FP${dfia_iter}"
+										excelSet --value "${IMP_SNO}" --file ${excel} --getfirstsheet  --usingcell  --cell "FQ${dfia_iter}"
+										excelSet --value "${IMPQT}" --file ${excel} --getfirstsheet  --usingcell  --cell "FR${dfia_iter}"
+										excelSet --value "${UQC}" --file ${excel} --getfirstsheet  --usingcell  --cell "FS${dfia_iter}"
+										excelSet --value "${INDIG}" --file ${excel} --getfirstsheet  --usingcell  --cell "FT${dfia_iter}"
+										incrementVar --number ${dfia_iter}
+									endIf
+								endIf
+								//endIf
+							endIf
+						endIf
+					endIf
+					//endIf
+				else
+					logMessage --message empty --type "Info"
+					evaluate --expression "${i} - 8" i=value
+					break
+				endIf
+			next
+		elseIf --left "${toru}" --operator "Equal_To" --right True
+			break
+			//elseIf --left "${ooc}" --operator "Equal_To" --right True
+			//pdfRegionText --language "en-US" --region "97,612,781,80" --page 4 --dpix 110 --dpiy 110 --file ${pdf1} swd=value
+			//logMessage --message "${swd}" --type "Info"
+		elseIf --left "${tf2}" --operator "Equal_To" --right True
+			break
+			if --left "${split}" --operator "Is_Null_Or_Empty" --negate 
+				incrementVar --number ${dfia_details}
+			endIf
+		endIf
+	next
+	excelSet --value "${serial}" --file ${excel} --getfirstsheet  --usingcell  --cell "A${main_rowit}"
+	excelSet --value "${Port_Code_Value}" --file ${excel} --getfirstsheet  --usingcell  --cell "B${main_rowit}"
+	excelSet --value "${SB_Date_Value}" --file ${excel} --getfirstsheet  --usingcell  --cell "C${main_rowit}"
+	excelSet --value "${SB_No_Value}" --file ${excel} --getfirstsheet  --usingcell  --cell "D${main_rowit}"
+	excelSet --value "${BE_Type}" --file ${excel} --getfirstsheet  --usingcell  --cell "E${main_rowit}"
+	excelSet --value "${ICE_Br_Value}" --file ${excel} --getfirstsheet  --usingcell  --cell "F${main_rowit}"
+	excelSet --value "${GSTIN_Type}" --file ${excel} --getfirstsheet  --usingcell  --cell "G${main_rowit}"
+	excelSet --value "${CB_Code}" --file ${excel} --getfirstsheet  --usingcell  --cell "H${main_rowit}"
+	excelSet --value "${TYPE}" --file ${excel} --getfirstsheet  --usingcell  --cell "I${main_rowit}"
+	excelSet --value "${Nos_Inv}" --file ${excel} --getfirstsheet  --usingcell  --cell "J${main_rowit}"
+	excelSet --value "${Nos_Item}" --file ${excel} --getfirstsheet  --usingcell  --cell "K${main_rowit}"
+	excelSet --value "${Nos_Cont}" --file ${excel} --getfirstsheet  --usingcell  --cell "L${main_rowit}"
+	excelSet --value "${PKG_Inv}" --file ${excel} --getfirstsheet  --usingcell  --cell "M${main_rowit}"
+	excelSet --value "${PKG_Data}" --file ${excel} --getfirstsheet  --usingcell  --cell "N${main_rowit}"
+	excelSet --value "${PKG_Cont}" --file ${excel} --getfirstsheet  --usingcell  --cell "O${main_rowit}"
+	excelSet --value "${MODE_Value}" --file ${excel} --getfirstsheet  --usingcell  --cell "P${main_rowit}"
+	excelSet --value "${ASSESS_Value}" --file ${excel} --getfirstsheet  --usingcell  --cell "Q${main_rowit}"
+	excelSet --value "${EXMN_Value}" --file ${excel} --getfirstsheet  --usingcell  --cell "R${main_rowit}"
+	excelSet --value "${JOBBING_Value}" --file ${excel} --getfirstsheet  --usingcell  --cell "S${main_rowit}"
+	excelSet --value "${MEIS_Value}" --file ${excel} --getfirstsheet  --usingcell  --cell "T${main_rowit}"
+	excelSet --value "${DBK_Value}" --file ${excel} --getfirstsheet  --usingcell  --cell "U${main_rowit}"
+	excelSet --value "${RODTP_Value}" --file ${excel} --getfirstsheet  --usingcell  --cell "V${main_rowit}"
+	excelSet --value Empty --file ${excel} --getfirstsheet  --usingcell  --cell "W${main_rowit}"
+	excelSet --value "${DFRC_Value} " --file ${excel} --getfirstsheet  --usingcell  --cell "X${main_rowit}"
+	excelSet --value Empty --file ${excel} --getfirstsheet  --usingcell  --cell "Y${main_rowit}"
+	excelSet --value "${LUT_Value} " --file ${excel} --getfirstsheet  --usingcell  --cell "Z${main_rowit}"
+	excelSet --value "${PORT_OF_LOADING} " --file ${excel} --getfirstsheet  --usingcell  --cell "AA${main_rowit}"
+	excelSet --value "${COUNTRY_OF_FINAL_DESTINATION} " --file ${excel} --getfirstsheet  --usingcell  --cell "AB${main_rowit}"
+	excelSet --value "${State_of_Origin} " --file ${excel} --getfirstsheet  --usingcell  --cell "AC${main_rowit}"
+	excelSet --value "${PORT_OF_FINAL_DESTINATION} " --file ${excel} --getfirstsheet  --usingcell  --cell "AD${main_rowit}"
+	excelSet --value "${PORT_OF_DISCHARGE_Value} " --file ${excel} --getfirstsheet  --usingcell  --cell "AE${main_rowit}"
+	excelSet --value "${COUNTRY_OF_DISCHARGE} " --file ${excel} --getfirstsheet  --usingcell  --cell "AF${main_rowit}"
+	excelSet --value "${PARTIES_EXPORTERS_NAME_ADDRESS} " --file ${excel} --getfirstsheet  --usingcell  --cell "AG${main_rowit}"
+	excelSet --value "${TYPE} " --file ${excel} --getfirstsheet  --usingcell  --cell "AH${main_rowit}"
+	excelSet --value "${AD_CODE}  " --file ${excel} --getfirstsheet  --usingcell  --cell "AI${main_rowit}"
+	excelSet --value Empty --file ${excel} --getfirstsheet  --usingcell  --cell "AJ${main_rowit}"
+	excelSet --value "${CB_NAME} " --file ${excel} --getfirstsheet  --usingcell  --cell "AK${main_rowit}"
+	excelSet --value "${BUYER_AEO_STATUS} " --file ${excel} --getfirstsheet  --usingcell  --cell "AL${main_rowit}"
+	excelSet --value "${CONSIGNEE_NAME_ADDRESS} " --file ${excel} --getfirstsheet  --usingcell  --cell "AM${main_rowit}"
+	excelSet --value "${GSTIN_Type} " --file ${excel} --getfirstsheet  --usingcell  --cell "AN${main_rowit}"
+	excelSet --value "${FOREX_BANK_AC_NO} " --file ${excel} --getfirstsheet  --usingcell  --cell "AO${main_rowit}"
+	excelSet --value "${DBK_BANK_AC_NO} " --file ${excel} --getfirstsheet  --usingcell  --cell "AP${main_rowit}"
+	excelSet --value "${IFSC_NO} " --file ${excel} --getfirstsheet  --usingcell  --cell "AQ${main_rowit}"
+	excelSet --value "${FOB_VALUE} " --file ${excel} --getfirstsheet  --usingcell  --cell "AR${main_rowit}"
+	excelSet --value "${FREIGHT_Value} " --file ${excel} --getfirstsheet  --usingcell  --cell "AS${main_rowit}"
+	excelSet --value "${INSURANC_Value} " --file ${excel} --getfirstsheet  --usingcell  --cell "AT${main_rowit}"
+	excelSet --value "${DISCOU_Value} " --file ${excel} --getfirstsheet  --usingcell  --cell "AU${main_rowit}"
+	excelSet --value "${COM_Value} " --file ${excel} --getfirstsheet  --usingcell  --cell "AV${main_rowit}"
+	excelSet --value "${DEDUCTIONS_Value} " --file ${excel} --getfirstsheet  --usingcell  --cell "AW${main_rowit}"
+	excelSet --value "${PC_Value}  " --file ${excel} --getfirstsheet  --usingcell  --cell "AX${main_rowit}"
+	excelSet --value Empty --file ${excel} --getfirstsheet  --usingcell  --cell "AY${main_rowit}"
+	excelSet --value Empty --file ${excel} --getfirstsheet  --usingcell  --cell "AZ${main_rowit}"
+	excelSet --value "${DBK_CLAIM} " --file ${excel} --getfirstsheet  --usingcell  --cell "BA${main_rowit}"
+	excelSet --value "${IGST_amount}  " --file ${excel} --getfirstsheet  --usingcell  --cell "BB${main_rowit}"
+	excelSet --value Empty --file ${excel} --getfirstsheet  --usingcell  --cell "BC${main_rowit}"
+	excelSet --value "${IGST_value}" --file ${excel} --getfirstsheet  --usingcell  --cell "BD${main_rowit}"
+	excelSet --value "${RODTEP_AMT} " --file ${excel} --getfirstsheet  --usingcell  --cell "BE${main_rowit}"
+	excelSet --value "${ROSCTL_AMT} " --file ${excel} --getfirstsheet  --usingcell  --cell "BF${main_rowit}"
+	excelSet --value Empty --file ${excel} --getfirstsheet  --usingcell  --cell "BG${main_rowit}"
+	excelSet --value Empty --file ${excel} --getfirstsheet  --usingcell  --cell "BH${main_rowit}"
+	excelSet --value Empty --file ${excel} --getfirstsheet  --usingcell  --cell "BI${main_rowit}"
+	excelSet --value Empty --file ${excel} --getfirstsheet  --usingcell  --cell "BJ${main_rowit}"
+	excelSet --value Empty --file ${excel} --getfirstsheet  --usingcell  --cell "BK${main_rowit}"
+	excelSet --value "${CIN_NO}" --file ${excel} --getfirstsheet  --usingcell  --cell "BL${main_rowit}"
+	excelSet --value "${CIN_DT}" --file ${excel} --getfirstsheet  --usingcell  --cell "BM${main_rowit}"
+	excelSet --value "${CIN_SITE_ID}" --file ${excel} --getfirstsheet  --usingcell  --cell "BN${main_rowit}"
+	excelSet --value "${SNO}" --file ${excel} --getfirstsheet  --usingcell  --cell "BO${main_rowit}"
+	excelSet --value "${INV_NO}" --file ${excel} --getfirstsheet  --usingcell  --cell "BP${main_rowit}"
+	excelSet --value "${INV_AMT}" --file ${excel} --getfirstsheet  --usingcell  --cell "BQ${main_rowit}"
+	excelSet --value "${CURRENC}" --file ${excel} --getfirstsheet  --usingcell  --cell "BR${main_rowit}"
+	excelSet --value "${CONTAINER}" --file ${excel} --getfirstsheet  --usingcell  --cell "BS${main_rowit}"
+	excelSet --value "${SEAL}" --file ${excel} --getfirstsheet  --usingcell  --cell "BT${main_rowit}"
+	excelSet --value "${DATE}" --file ${excel} --getfirstsheet  --usingcell  --cell "BU${main_rowit}"
+	excelSet --value Empty --file ${excel} --getfirstsheet  --usingcell  --cell "BV${main_rowit}"
+	excelSet --value Empty --file ${excel} --getfirstsheet  --usingcell  --cell "BW${main_rowit}"
+	excelSet --value Empty --file ${excel} --getfirstsheet  --usingcell  --cell "BX${main_rowit}"
+	excelSet --value Empty --file ${excel} --getfirstsheet  --usingcell  --cell "BY${main_rowit}"
+	excelSet --value Empty --file ${excel} --getfirstsheet  --usingcell  --cell "BZ${main_rowit}"
+	excelSet --value "${SEAL_TYPE}" --file ${excel} --getfirstsheet  --usingcell  --cell "CA${main_rowit}"
+	excelSet --value "${NATURE_OF_CARGO} " --file ${excel} --getfirstsheet  --usingcell  --cell "CB${main_rowit}"
+	excelSet --value "${NO_OF_PACKETS} " --file ${excel} --getfirstsheet  --usingcell  --cell "CC${main_rowit}"
+	excelSet --value "${NO_OF_CONTAINERS}" --file ${excel} --getfirstsheet  --usingcell  --cell "CD${main_rowit}"
+	excelSet --value "${LOOSE_PACKETS} " --file ${excel} --getfirstsheet  --usingcell  --cell "CE${main_rowit}"
+	excelSet --value "${MARKS_NUMBERS} " --file ${excel} --getfirstsheet  --usingcell  --cell "CF${main_rowit}"
+	excelSet --value "${Submission_Date} " --file ${excel} --getfirstsheet  --usingcell  --cell "CG${main_rowit}"
+	excelSet --value "${Submission_Time} " --file ${excel} --getfirstsheet  --usingcell  --cell "CH${main_rowit}"
+	excelSet --value Empty --file ${excel} --getfirstsheet  --usingcell  --cell "CI${main_rowit}"
+	excelSet --value Empty --file ${excel} --getfirstsheet  --usingcell  --cell "CJ${main_rowit}"
+	excelSet --value "${LEO_NO}" --file ${excel} --getfirstsheet  --usingcell  --cell "CK${main_rowit}"
+	excelSet --value "${LEO_Date}" --file ${excel} --getfirstsheet  --usingcell  --cell "CL${main_rowit}"
+	excelSet --value "${Examination_Date}" --file ${excel} --getfirstsheet  --usingcell  --cell "CM${main_rowit}"
+	excelSet --value "${Examination_Time}" --file ${excel} --getfirstsheet  --usingcell  --cell "CN${main_rowit}"
+	excelSet --value Empty --file ${excel} --getfirstsheet  --usingcell  --cell "CO${main_rowit}"
+	excelSet --value "${BRC_Realisation_Date}" --file ${excel} --getfirstsheet  --usingcell  --cell "CP${main_rowit}"
+	excelSet --value "${LEO_Date}" --file ${excel} --getfirstsheet  --usingcell  --cell "CQ${main_rowit}"
+	excelSet --value "${EVENT_LEO_Time}" --file ${excel} --getfirstsheet  --usingcell  --cell "CR${main_rowit}"
+	excelSet --value Empty --file ${excel} --getfirstsheet  --usingcell  --cell "CS${main_rowit}"
+	excelSet --value "${INVOICE_No_Dt}" --file ${excel} --getfirstsheet  --usingcell  --cell "CT${main_rowit}"
+	excelSet --value Empty --file ${excel} --getfirstsheet  --usingcell  --cell "CU${main_rowit}"
+	excelSet --value Empty --file ${excel} --getfirstsheet  --usingcell  --cell "CV${main_rowit}"
+	excelSet --value Empty --file ${excel} --getfirstsheet  --usingcell  --cell "CW${main_rowit}"
+	excelSet --value "${AD_CODE}" --file ${excel} --getfirstsheet  --usingcell  --cell "CX${main_rowit}"
+	excelSet --value Empty --file ${excel} --getfirstsheet  --usingcell  --cell "CY${main_rowit}"
+	excelSet --value "${PARTIES_EXPORTERS_NAME_ADDRESS}" --file ${excel} --getfirstsheet  --usingcell  --cell "CZ${main_rowit}"
+	excelSet --value "${BUYER_NAME_ADD}" --file ${excel} --getfirstsheet  --usingcell  --cell "DA${main_rowit}"
+	excelSet --value "${THIRD_PARTY_ADD}" --file ${excel} --getfirstsheet  --usingcell  --cell "DB${main_rowit}"
+	excelSet --value "${BUYER_AEO_STATUS}" --file ${excel} --getfirstsheet  --usingcell  --cell "DC${main_rowit}"
+	excelSet --value "${INVOICE_VALUE}" --file ${excel} --getfirstsheet  --usingcell  --cell "DD${main_rowit}"
+	excelSet --value "${FOB_VALUE}" --file ${excel} --getfirstsheet  --usingcell  --cell "DE${main_rowit}"
+	excelSet --value "${FREIGHT}" --file ${excel} --getfirstsheet  --usingcell  --cell "DF${main_rowit}"
+	excelSet --value "${C_INSURANCE}" --file ${excel} --getfirstsheet  --usingcell  --cell "DG${main_rowit}"
+	excelSet --value Empty --file ${excel} --getfirstsheet  --usingcell  --cell "DH${main_rowit}"
+	excelSet --value "${INVOICE_COMMISON}" --file ${excel} --getfirstsheet  --usingcell  --cell "DI${main_rowit}"
+	excelSet --value "${DEDUC}" --file ${excel} --getfirstsheet  --usingcell  --cell "DJ${main_rowit}"
+	excelSet --value "${PC_Value}" --file ${excel} --getfirstsheet  --usingcell  --cell "DK${main_rowit}"
+	excelSet --value "${INVOICE_EXCHANGE_RATE}" --file ${excel} --getfirstsheet  --usingcell  --cell "DL${main_rowit}"
+	excelSet --value "${ITEMSN_Value}" --file ${excel} --getfirstsheet  --usingcell  --cell "DM${main_rowit}"
+	excelSet --value "${HSCD}" --file ${excel} --getfirstsheet  --usingcell  --cell "DN${main_rowit}"
+	excelSet --value "${DESCRIPTION_Value}" --file ${excel} --getfirstsheet  --usingcell  --cell "DO${main_rowit}"
+	excelSet --value "${QUANTITY}" --file ${excel} --getfirstsheet  --usingcell  --cell "DP${main_rowit}"
+	excelSet --value "${ITEM_Details_UQC}" --file ${excel} --getfirstsheet  --usingcell  --cell "DQ${main_rowit}"
+	excelSet --value "${ITEM_Details_RATE}" --file ${excel} --getfirstsheet  --usingcell  --cell "DR${main_rowit}"
+	excelSet --value "${ITEM_Details_VALUE_FC}" --file ${excel} --getfirstsheet  --usingcell  --cell "DS${main_rowit}"
+	excelSet --value Empty --file ${excel} --getfirstsheet  --usingcell  --cell "DT${main_rowit}"
+	excelSet --value "${Item_SNo}" --file ${excel} --getfirstsheet  --usingcell  --cell "DU${main_rowit}"
+	excelSet --value "${HSCD}" --file ${excel} --getfirstsheet  --usingcell  --cell "DV${main_rowit}"
+	excelSet --value "${DESCRIPTION_Value}" --file ${excel} --getfirstsheet  --usingcell  --cell "DW${main_rowit}"
+	excelSet --value "${QUANTITY}" --file ${excel} --getfirstsheet  --usingcell  --cell "DX${main_rowit}"
+	excelSet --value "${ITEM_Details_UQC}" --file ${excel} --getfirstsheet  --usingcell  --cell "DY${main_rowit}"
+	excelSet --value "${ITEM_Details_RATE}" --file ${excel} --getfirstsheet  --usingcell  --cell "DZ${main_rowit}"
+	excelSet --value "${ITEM_Details_VALUE_FC}" --file ${excel} --getfirstsheet  --usingcell  --cell "EA${main_rowit}"
+	excelSet --value "${FOB_VALUE}" --file ${excel} --getfirstsheet  --usingcell  --cell "EB${main_rowit}"
+	excelSet --value "${PMV}" --file ${excel} --getfirstsheet  --usingcell  --cell "EC${main_rowit}"
+	excelSet --value Empty --file ${excel} --getfirstsheet  --usingcell  --cell "ED${main_rowit}"
+	excelSet --value Empty --file ${excel} --getfirstsheet  --usingcell  --cell "EE${main_rowit}"
+	excelSet --value Empty --file ${excel} --getfirstsheet  --usingcell  --cell "EF${main_rowit}"
+	excelSet --value "${DBKCLMD}" --file ${excel} --getfirstsheet  --usingcell  --cell "EG${main_rowit}"
+	excelSet --value "${IGSTSTAT}" --file ${excel} --getfirstsheet  --usingcell  --cell "EH${main_rowit}"
+	excelSet --value "${IGST_value}" --file ${excel} --getfirstsheet  --usingcell  --cell "EI${main_rowit}"
+	excelSet --value "${IGST_amount}" --file ${excel} --getfirstsheet  --usingcell  --cell "EJ${main_rowit}"
+	excelSet --value "${SCHCOD}" --file ${excel} --getfirstsheet  --usingcell  --cell "EK${main_rowit}"
+	excelSet --value "${Scheme_Description}" --file ${excel} --getfirstsheet  --usingcell  --cell "EL${main_rowit}"
+	excelSet --value "${SQC_MSR}" --file ${excel} --getfirstsheet  --usingcell  --cell "EM${main_rowit}"
+	excelSet --value "${SQC_UQC}" --file ${excel} --getfirstsheet  --usingcell  --cell "EN${main_rowit}"
+	excelSet --value "${State_of_Origin}" --file ${excel} --getfirstsheet  --usingcell  --cell "EO${main_rowit}"
+	excelSet --value "${district_of_origin}" --file ${excel} --getfirstsheet  --usingcell  --cell "EP${main_rowit}"
+	excelSet --value "${PT_Abroad}" --file ${excel} --getfirstsheet  --usingcell  --cell "EQ${main_rowit}"
+	excelSet --value "${COMP_CESS}" --file ${excel} --getfirstsheet  --usingcell  --cell "ER${main_rowit}"
+	excelSet --value "${END_use}" --file ${excel} --getfirstsheet  --usingcell  --cell "ES${main_rowit}"
+	excelSet --value "${FTA_BA}" --file ${excel} --getfirstsheet  --usingcell  --cell "ET${main_rowit}"
+	excelSet --value "${Reward_Benefit}" --file ${excel} --getfirstsheet  --usingcell  --cell "EU${main_rowit}"
+	excelSet --value "${Third_Party_Item}" --file ${excel} --getfirstsheet  --usingcell  --cell "EV${main_rowit}"
+	excelSet --value "${SNO}" --file ${excel} --getfirstsheet  --usingcell  --cell "HG${main_rowit}"
+	excelSet --value "${INV_NO}" --file ${excel} --getfirstsheet  --usingcell  --cell "HH${main_rowit}"
+	excelSet --value "${INV_AMT}" --file ${excel} --getfirstsheet  --usingcell  --cell "HI${main_rowit}"
+	excelSet --value "${CURRENC}" --file ${excel} --getfirstsheet  --usingcell  --cell "HJ${main_rowit}"
+	excelSet --value "${SNO}" --file ${excel} --getfirstsheet  --usingcell  --cell "HK${main_rowit}"
+	excelSet --value "${CONTAINER}" --file ${excel} --getfirstsheet  --usingcell  --cell "HL${main_rowit}"
+	excelSet --value "${SEAL}" --file ${excel} --getfirstsheet  --usingcell  --cell "HM${main_rowit}"
+	excelSet --value "${DATE}" --file ${excel} --getfirstsheet  --usingcell  --cell "HN${main_rowit}"
+	
+	excelSet --value Empty --file ${excel} --getfirstsheet  --usingcell  --cell "EW${main_rowit}"
+	
+	excelSet --value Empty --file ${excel} --getfirstsheet  --usingcell  --cell "EX${main_rowit}"
+	
+	excelSet --value Empty --file ${excel} --getfirstsheet  --usingcell  --cell "EY${main_rowit}"
+	
+	excelSet --value Empty --file ${excel} --getfirstsheet  --usingcell  --cell "EZ${main_rowit}"
+	
+	excelSet --value Empty --file ${excel} --getfirstsheet  --usingcell  --cell "FA${main_rowit}"
+	
+	excelSet --value Empty --file ${excel} --getfirstsheet  --usingcell  --cell "FB${main_rowit}"
+	
+	excelSet --value Empty --file ${excel} --getfirstsheet  --usingcell  --cell "FC${main_rowit}"
+	
+	excelSet --value Empty --file ${excel} --getfirstsheet  --usingcell  --cell "FD${main_rowit}"
+	
+	excelSet --value Empty --file ${excel} --getfirstsheet  --usingcell  --cell "FE${main_rowit}"
+	
+	excelSet --value Empty --file ${excel} --getfirstsheet  --usingcell  --cell "FF${main_rowit}"
+	
+	excelSet --value Empty --file ${excel} --getfirstsheet  --usingcell  --cell "FU${main_rowit}"
+	
+	excelSet --value Empty --file ${excel} --getfirstsheet  --usingcell  --cell "FV${main_rowit}"
+	
+	excelSet --value Empty --file ${excel} --getfirstsheet  --usingcell  --cell "FW${main_rowit}"
+	
+	excelSet --value Empty --file ${excel} --getfirstsheet  --usingcell  --cell "FX${main_rowit}"
+	
+	excelSet --value Empty --file ${excel} --getfirstsheet  --usingcell  --cell "FY${main_rowit}"
+	
+	
+	excelSet --value Empty --file ${excel} --getfirstsheet  --usingcell  --cell "GH${main_rowit}"
+	
+	excelSet --value Empty --file ${excel} --getfirstsheet  --usingcell  --cell "GI${main_rowit}"
+	
+	excelSet --value Empty --file ${excel} --getfirstsheet  --usingcell  --cell "GJ${main_rowit}"
+	
+	excelSet --value Empty --file ${excel} --getfirstsheet  --usingcell  --cell "GK${main_rowit}"
+	
+	excelSet --value Empty --file ${excel} --getfirstsheet  --usingcell  --cell "GL${main_rowit}"
+	
+	excelSet --value Empty --file ${excel} --getfirstsheet  --usingcell  --cell "GM${main_rowit}"
+	
+	excelSet --value Empty --file ${excel} --getfirstsheet  --usingcell  --cell "GN${main_rowit}"
+	
+	excelSet --value Empty --file ${excel} --getfirstsheet  --usingcell  --cell "GO${main_rowit}"
+	
+	excelSet --value Empty --file ${excel} --getfirstsheet  --usingcell  --cell "GP${main_rowit}"
+	
+	excelSet --value Empty --file ${excel} --getfirstsheet  --usingcell  --cell "GQ${main_rowit}"
+	
+	excelSet --value Empty --file ${excel} --getfirstsheet  --usingcell  --cell "GR${main_rowit}"
+	
+	excelSet --value Empty --file ${excel} --getfirstsheet  --usingcell  --cell "GS${main_rowit}"
+	
+	excelSet --value Empty --file ${excel} --getfirstsheet  --usingcell  --cell "GT${main_rowit}"
+	
+	excelSet --value Empty --file ${excel} --getfirstsheet  --usingcell  --cell "GU${main_rowit}"
+	
+	excelSet --value Empty --file ${excel} --getfirstsheet  --usingcell  --cell "GV${main_rowit}"
+	
+	excelSet --value Empty --file ${excel} --getfirstsheet  --usingcell  --cell "GW${main_rowit}"
+	
+	
+	excelSet --value Empty --file ${excel} --getfirstsheet  --usingcell  --cell "HO${main_rowit}"
+	
+	excelSet --value Empty --file ${excel} --getfirstsheet  --usingcell  --cell "HP${main_rowit}"
+	
+	excelSet --value Empty --file ${excel} --getfirstsheet  --usingcell  --cell "HQ${main_rowit}"
+	
+	excelSet --value Empty --file ${excel} --getfirstsheet  --usingcell  --cell "HR${main_rowit}"
+	
+	excelSet --value Empty --file ${excel} --getfirstsheet  --usingcell  --cell "HS${main_rowit}"
+	
+	excelSet --value Empty --file ${excel} --getfirstsheet  --usingcell  --cell "HT${main_rowit}"
+	
+	excelSet --value Empty --file ${excel} --getfirstsheet  --usingcell  --cell "HU${main_rowit}"
+	
+	excelSet --value Empty --file ${excel} --getfirstsheet  --usingcell  --cell "HV${main_rowit}"
+	
+	excelSet --value Empty --file ${excel} --getfirstsheet  --usingcell  --cell "HW${main_rowit}"
+	
+	excelSet --value Empty --file ${excel} --getfirstsheet  --usingcell  --cell "HX${main_rowit}"
+	
+	excelSet --value Empty --file ${excel} --getfirstsheet  --usingcell  --cell "HY${main_rowit}"
+	
+	excelSet --value Empty --file ${excel} --getfirstsheet  --usingcell  --cell "HZ${main_rowit}"
+	
+	excelSet --value Empty --file ${excel} --getfirstsheet  --usingcell  --cell "IA${main_rowit}"
+	
+	excelSet --value Empty --file ${excel} --getfirstsheet  --usingcell  --cell "IB${main_rowit}"
+	
+	excelSet --value Empty --file ${excel} --getfirstsheet  --usingcell  --cell "IC${main_rowit}"
+	
+	excelSet --value Empty --file ${excel} --getfirstsheet  --usingcell  --cell "ID${main_rowit}"
+	
+	excelSet --value Empty --file ${excel} --getfirstsheet  --usingcell  --cell "IE${main_rowit}"
+	
+	excelSet --value Empty --file ${excel} --getfirstsheet  --usingcell  --cell "IF${main_rowit}"
+	
+	excelSet --value Empty --file ${excel} --getfirstsheet  --usingcell  --cell "IG${main_rowit}"
+	
+	excelSet --value Empty --file ${excel} --getfirstsheet  --usingcell  --cell "IH${main_rowit}"
+	
+	excelSet --value Empty --file ${excel} --getfirstsheet  --usingcell  --cell "II${main_rowit}"
+	
+	excelSet --value Empty --file ${excel} --getfirstsheet  --usingcell  --cell "IJ${main_rowit}"
+	
+	excelSet --value Empty --file ${excel} --getfirstsheet  --usingcell  --cell "IK${main_rowit}"
+	
+	excelSet --value Empty --file ${excel} --getfirstsheet  --usingcell  --cell "IL${main_rowit}"
+	
+	excelSet --value Empty --file ${excel} --getfirstsheet  --usingcell  --cell "IM${main_rowit}"
+	
+	excelSet --value Empty --file ${excel} --getfirstsheet  --usingcell  --cell "IN${main_rowit}"
+	excelSet --value Empty --file ${excel} --getfirstsheet  --usingcell  --cell "IO${main_rowit}"
+	excelSet --value Empty --file ${excel} --getfirstsheet  --usingcell  --cell "IP${main_rowit}"
+	excelSet --value Empty --file ${excel} --getfirstsheet  --usingcell  --cell "IQ${main_rowit}"
+	excelSet --value Empty --file ${excel} --getfirstsheet  --usingcell  --cell "IR${main_rowit}"
+	excelSet --value Empty --file ${excel} --getfirstsheet  --usingcell  --cell "IS${main_rowit}"
+	excelSet --value Empty --file ${excel} --getfirstsheet  --usingcell  --cell "IT${main_rowit}"
+	excelSet --value Empty --file ${excel} --getfirstsheet  --usingcell  --cell "IU${main_rowit}"
+	excelSet --value Empty --file ${excel} --getfirstsheet  --usingcell  --cell "IV${main_rowit}"
+	excelSet --value Empty --file ${excel} --getfirstsheet  --usingcell  --cell "IW${main_rowit}"
+	excelSet --value Empty --file ${excel} --getfirstsheet  --usingcell  --cell "IX${main_rowit}"
+	excelSet --value Empty --file ${excel} --getfirstsheet  --usingcell  --cell "IY${main_rowit}"
+	excelSet --value Empty --file ${excel} --getfirstsheet  --usingcell  --cell "IZ${main_rowit}"
+	excelSet --value Empty --file ${excel} --getfirstsheet  --usingcell  --cell "JA${main_rowit}"
+	excelSet --value Empty --file ${excel} --getfirstsheet  --usingcell  --cell "JB${main_rowit}"
+	
+	
+	setVar --name "${split}"
+	if --left "${dfia_iter}" --operator "Greater_Than" --right "${swd_iter}"
+		setVar --name "${temp}" --value "${dfia_iter}"
+	elseIf --left "${sd_iter}" --operator "Greater_Than" --right "${dfia_iter}"
+		setVar --name "${temp}" --value "${sd_iter}"
+	endIf
+	evaluate --expression "${temp}+2" main_rowit=value
+	//setVar --name "${dfia_iter}"
+	//setVar --name "${swd_iter}"
+	//setVar --name "${sd_iter}"
+	logMessage --message pdf --type "Info"
+	
+endFor*	23.0.13.0
