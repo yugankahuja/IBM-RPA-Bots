@@ -1,0 +1,97 @@
+ß*defVar --name pdf1 --type Pdf
+defVar --name pg1 --type String
+defVar --name pg3 --type String
+defVar --name pg4 --type String
+defVar --name pg1List --type List --innertype String
+defVar --name pg1_len --type Numeric
+defVar --name var --type String
+defVar --name fn --type Boolean
+defVar --name excel --type Excel
+defVar --name row_iter --type Numeric --value 1
+defVar --name pg2List --type List --innertype String
+defVar --name fnn --type Boolean
+defVar --name pgList --type List --innertype String
+defVar --name var1 --type String
+defVar --name var2 --type String
+defVar --name sum --type Boolean
+defVar --name pgs --type List --innertype String
+defVar --name page --type String
+defVar --name qt --type String
+defVar --name qt1 --type String
+defVar --name amt --type String
+defVar --name amt1 --type String
+defVar --name sum2 --type Boolean
+defVar --name rowiter2 --type Numeric --value 1
+defVar --name rowiter3 --type Numeric --value 1
+defVar --name null --type String
+pdfOpen --file "D:\\IBM RPA PROJECTS\\OD328771029170155200-1_230816_140328.pdf" pdf1=value
+pdfRegionText --language "en-US" --region "35,698,417,460" --page 1 --dpix 110 --dpiy 110 --file ${pdf1} pg1=value
+pdfRegionText --language "en-US" --region "33,690,410,171" --page 3 --dpix 110 --dpiy 110 --file ${pdf1} pg3=value
+pdfRegionText --language "en-US" --region "34,689,410,171" --page 4 --dpix 110 --dpiy 110 --file ${pdf1} pg4=value
+insert --index 1 --value "${pg1}" --collection "${pgs}"
+insert --index 2 --value "${pg3}" --collection "${pgs}"
+insert --index 3 --value "${pg4}" --collection "${pgs}"
+foreach --collection "${pgs}" --variable "${page}"
+#NAME
+	splitString --text "${page}" --delimiteroption "CustomDelimiter" --customdelimiter "[0-9]+\\s+\\([0-9]*\\.[0-9]+\\)(\\s+(([+-]?(?=\\.\\d|\\d)(?:\\d+)?(?:\\.?\\d*))(?:[Ee]([+-]?\\d+))?\\s+)+)[0-9]*\\.[0-9]+" --isregularexpression  --regexOptions "0" pg1List=value
+	foreach --collection "${pg1List}" --variable "${var}"
+		excelOpen --file "D:\\IBM RPA PROJECTS\\temp.xlsx" --savechanges  excel=value
+		isMatch --text "${var}" --regexPattern "(\\s+([A-Za-z]+\\s+)+).*[0-9]+.*[A-Za-z]+" --regexOptions "0" fn=value
+		if --left "${fn}" --operator "Equal_To" --right true
+			isMatch --text "${var}" --regexPattern aa --regexOptions "0" fnn=value
+			isMatch --text "${var}" --regexPattern Summary --regexOptions "0" sum=value
+			if --left "${fnn}" --operator "Equal_To" --right true
+				getRegex --text "${var}" --regexPattern "[A-Za-z]+\\s+[A-Za-z]+\\s+[0-9]+\\s+[A-Za-z]+" --regexOptions "0" var1=value
+				excelSet --value "${var1}" --file ${excel} --getfirstsheet  --row ${row_iter} --column 1
+				incrementVar --number ${row_iter}
+				getRegex --text "${var}" --regexPattern "[A-Za-z]+\\s+[A-Za-z]+\\s+[A-Za-z]+\\s+[A-Za-z]+\\s+.*\\s+[A-Za-z]+.*\\s[0-9]+.*[A-Za-z]" --regexOptions "0" var2=value
+				if --left var2 --operator "Equal_To" --right "${null}"
+					continue
+				else
+					excelSet --value "${var2}" --file ${excel} --getfirstsheet  --row ${row_iter} --column 1
+					incrementVar --number ${row_iter}
+				endIf
+			elseIf --left "${sum}" --operator "Equal_To" --right true
+				break
+			else
+				excelSet --value "${var}" --file ${excel} --getfirstsheet  --row ${row_iter} --column 1
+				incrementVar --number ${row_iter}
+			endIf
+		endIf
+	endFor
+endFor
+foreach --collection "${pgs}" --variable "${page}"
+#QT
+	splitString --text "${page}" --delimiteroption "CustomDelimiter" --customdelimiter "(\\s+([A-Za-z]+\\s+)+).*[0-9]+.*[A-Za-z]+" --isregularexpression  --regexOptions "0" pg2List=value
+	foreach --collection "${pg2List}" --variable "${qt}"
+		excelOpen --file "D:\\IBM RPA PROJECTS\\temp.xlsx" --savechanges  excel=value
+		isMatch --text "${qt}" --regexPattern "\\s\\d\\s" --regexOptions "0" fn=value
+		if --left "${fn}" --operator "Equal_To" --right true
+			getRegex --text "${qt}" --regexPattern "\\s\\d\\s" --regexOptions "0" qt1=value
+			excelSet --value "${qt1}" --file ${excel} --getfirstsheet  --row ${rowiter2} --column 2
+			incrementVar --number ${rowiter2}
+		endIf
+	endFor
+endFor
+foreach --collection "${pgs}" --variable "${page}"
+	//#AMT
+	splitString --text "${page}" --delimiteroption "CustomDelimiter" --customdelimiter "(\\s+([A-Za-z]+\\s+)+).*[0-9]+.*[A-Za-z]+" --isregularexpression  --regexOptions "0" pg2List=value
+	foreach --collection "${pg2List}" --variable "${amt}"
+		isMatch --text "${amt}" --regexPattern Summary --regexOptions "0" sum=value
+		excelOpen --file "D:\\IBM RPA PROJECTS\\temp.xlsx" --savechanges  excel=value
+		isMatch --text "${amt}" --regexPattern "[0-9]*\\.[0-9]+" --regexOptions "0" fn=value
+		if --left "${fn}" --operator "Equal_To" --right true
+			isMatch --text "${amt}" --regexPattern "Delivery\\sCharges" --regexOptions "0" sum2=value
+			if --left "${sum2}" --operator "Equal_To" --right true
+				getRegex --text "${amt}" --regexPattern "[0-9]*\\.[0-9]+" --regexOptions "0" --getbyindex  --occurrenceindex 4 amt1=value
+				decrementVar --number ${rowiter3}
+				excelSet --value "${amt1}" --file ${excel} --getfirstsheet  --row ${rowiter3} --column 4
+				incrementVar --number ${rowiter3}
+			else
+				getRegex --text "${amt}" --regexPattern "[0-9]*\\.[0-9]+" --regexOptions "0" --getbyindex  --occurrenceindex 4 amt1=value
+				excelSet --value "${amt1}" --file ${excel} --getfirstsheet  --row ${rowiter3} --column 3
+				incrementVar --number ${rowiter3}
+			endIf
+		endIf
+	endFor
+endFor*	23.0.13.0

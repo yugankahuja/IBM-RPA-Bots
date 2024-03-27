@@ -1,0 +1,20 @@
+defVar --name table01 --type DataTable
+defVar --name name --type String
+defVar --name gender --type String
+defVar --name city --type String
+defVar --name date --type String
+defVar --name table --type DataTable
+defVar --name row_iter --type Numeric
+readCSV --filepath "C:\\Users\\Kunal Bhatt\\Downloads\\lyghtdemo.csv" --delimiter "," --hasheaders  --missingfieldaction "ParseError" table01=value
+webStart --name datatable --type "Chrome" --userprofilepreferences "AutomationOptimized" --downloadpath "C:\\Users\\Kunal Bhatt\\AppData\\Local\\IBM Robotic Process Automation\\downloads"
+for --variable ${row_iter} --from 1 --to ${table01.Rows} --step 1
+	mapTableRow --dataTable ${table01} --row ${row_iter} --mappings "[{\"Name\":\"Name\",\"Number\":\"1\",\"Output\":\"${name}\"},{\"Name\":\"Gender\",\"Number\":\"2\",\"Output\":\"${gender}\"},{\"Name\":\"City\",\"Number\":\"3\",\"Output\":\"${city}\"},{\"Name\":\"Date\",\"Number\":\"4\",\"Output\":\"${date}\"}]"
+	webNavigate --url "https://www.surveymonkey.com/r/82FFH9H"
+	webSet --value "${name}" --selector "Id" --id 169888830
+	webSetComboBox --selectoptionby "Value" --value 1238382306 --selector "Id" --id 169888941
+	webClick --selector "Id" --id 169889059_1238382889
+	//webSet --value 1238382889 --selector "Id" --id 169889059_1238382889
+	webSet --value "${date}" --selector "Id" --id 169889147_1238383421_DMY
+	webClick --selector "CssSelector" --css "html > body > main > article > section > form > div:nth-child(2) > button"
+next
+webClose --name datatable --leavebrowseropen *	23.0.11.0

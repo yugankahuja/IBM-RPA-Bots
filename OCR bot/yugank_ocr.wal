@@ -1,0 +1,204 @@
+Œ{defVar --name pdf1 --type Pdf
+defVar --name pg1 --type String
+defVar --name pdf2 --type Pdf
+defVar --name pg3 --type String
+defVar --name pg4 --type String
+defVar --name name --type String
+defVar --name qt --type String
+defVar --name amt --type String
+defVar --name name2 --type String
+defVar --name name3 --type String
+defVar --name name4 --type String
+defVar --name qt2 --type String
+defVar --name qt3 --type String
+defVar --name qt4 --type String
+defVar --name amt2 --type String
+defVar --name amt3 --type String
+defVar --name amt4 --type String
+defVar --name qt5 --type String
+defVar --name name5 --type String
+defVar --name amt5 --type String
+defVar --name name6 --type String
+defVar --name qt6 --type String
+defVar --name amt6 --type String
+defVar --name name7 --type String
+defVar --name qt7 --type String
+defVar --name amt7 --type String
+defVar --name name8 --type String
+defVar --name qt8 --type String
+defVar --name amt8 --type String
+defVar --name name9 --type String
+defVar --name qt9 --type String
+defVar --name amt9 --type String
+defVar --name name10 --type String
+defVar --name qt10 --type String
+defVar --name amt10 --type String
+defVar --name name11 --type String
+defVar --name qt11 --type String
+defVar --name amt11 --type String
+defVar --name name12 --type String
+defVar --name qt12 --type String
+defVar --name amt12 --type String
+defVar --name GT1 --type String
+defVar --name name13 --type String
+defVar --name qt13 --type String
+defVar --name qt_1 --type String
+defVar --name amt_1 --type String
+defVar --name name_1 --type String
+defVar --name GT2 --type String
+defVar --name GT3 --type String
+defVar --name name__1 --type String
+defVar --name qt__1 --type String
+defVar --name amt__1 --type String
+defVar --name name__2 --type String
+defVar --name qt__2 --type String
+defVar --name amt__2 --type String
+defVar --name amt_2 --type String
+defVar --name qt_2 --type String
+defVar --name name_2 --type String
+defVar --name excel --type Excel
+defVar --name in1 --type String
+defVar --name iv2 --type String
+defVar --name iv3 --type String
+defVar --name in2 --type String
+defVar --name in3 --type String
+defVar --name amt13 --type String
+defVar --name name14 --type String
+defVar --name amt14 --type String
+defVar --name qt14 --type String
+pdfOpen --file "D:\\IBM RPA PROJECTS\\OD328771029170155200-1_230816_140328.pdf" pdf2=value
+pdfRegionText --language "en-US" --region "9,696,445,457" --page 1 --dpix 110 --dpiy 110 --file ${pdf2} pg1=value
+pdfRegionText --language "en-US" --region "12,688,432,173" --page 3 --dpix 110 --dpiy 110 --file ${pdf2} pg3=value
+pdfRegionText --language "en-US" --region "10,689,433,172" --page 4 --dpix 110 --dpiy 110 --file ${pdf2} pg4=value
+pdfRegionText --language "en-US" --region "72,626,76,7" --page 1 --dpix 110 --dpiy 110 --file ${pdf2} in1=value
+pdfRegionText --language "en-US" --region "71,619,72,7" --page 3 --dpix 110 --dpiy 110 --file ${pdf2} in2=value
+pdfRegionText --language "en-US" --region "71,618,74,7" --page 4 --dpix 110 --dpiy 110 --file ${pdf2} in3=value
+getRegex --text "${pg1}" --regexPattern "[A-Za-z][A-Za-z][A-Za-z][A-Za-z][A-Za-z][A-Za-z][A-Za-z][A-Za-z](\\s+([A-Za-z0-9]+\\s+)+)[A-Za-z][A-Za-z][A-Za-z][A-Za-z][A-Za-z][A-Za-z]" --regexOptions "0" name=value
+getRegex --text "${pg1}" --regexPattern "[0-9]+\\s" --regexOptions "0" qt=value
+getRegex --text "${pg1}" --regexPattern "[0-9]*\\.[0-9]+" --regexOptions "0" --getbyindex  --occurrenceindex 4 amt=value
+getRegex --text "${pg1}" --regexPattern "UTTAM [A-Za-z]+ [A-Za-z]+ [A-Za-z]+, 1 [A-Za-z]+" --regexOptions "0" name2=value
+getRegex --text "${pg1}" --regexPattern "[0-9]+\\s" --regexOptions "0" --getbyindex  --occurrenceindex 2 qt2=value
+getRegex --text "${pg1}" --regexPattern "[0-9]*\\.[0-9]+" --regexOptions "0" --getbyindex  --occurrenceindex 8 amt2=value
+getRegex --text "${pg1}" --regexPattern "[A-Za-z]+(\\s+([A-Za-z]+\\s+)+)[A-Za-z]+,\\s+[0-9]+\\s+[A-Za-z]+" --regexOptions "0" --getbyindex  --occurrenceindex 2 name3=value
+getRegex --text "${pg1}" --regexPattern 1 --regexOptions "0" --getbyindex  --occurrenceindex 3 qt3=value
+getRegex --text "${pg1}" --regexPattern "[0-9]*\\.[0-9]+" --regexOptions "0" --getbyindex  --occurrenceindex 12 amt3=value
+getRegex --text "${pg1}" --regexPattern "[A-Za-z]+(\\s+([A-Za-z]+\\s+)+)[A-Za-z]+,\\s+[0-9]+\\s+[A-Za-z]+" --regexOptions "0" --getbyindex  --occurrenceindex 3 name4=value
+getRegex --text "${pg1}" --regexPattern "[0-9]+\\s" --regexOptions "0" --getbyindex  --occurrenceindex 4 qt4=value
+getRegex --text "${pg1}" --regexPattern "[0-9]*\\.[0-9]+" --regexOptions "0" --getbyindex  --occurrenceindex 16 amt4=value
+getRegex --text "${pg1}" --regexPattern "Happilo(\\s([A-Za-z]+\\s)+)Walnuts, [A-Za-z]+, ([A-Za-z0-9]+( [A-Za-z0-9]+)+)" --regexOptions "0" name5=value
+getRegex --text "${pg1}" --regexPattern 1 --regexOptions "0" --getbyindex  --occurrenceindex 5 qt5=value
+getRegex --text "${pg1}" --regexPattern "[0-9]*\\.[0-9]+" --regexOptions "0" --getbyindex  --occurrenceindex 20 amt5=value
+getRegex --text "${pg1}" --regexPattern "[A-Za-z]+(\\s([A-Za-z]+\\s)+)Salt, ([A-Za-z0-9]+( [A-Za-z0-9]+)+)" --regexOptions "0" name6=value
+getRegex --text "${pg1}" --regexPattern 1 --regexOptions "0" --getbyindex  --occurrenceindex 6 qt6=value
+getRegex --text "${pg1}" --regexPattern "[0-9]*\\.[0-9]+" --regexOptions "0" --getbyindex  --occurrenceindex 24 amt6=value
+getRegex --text "${pg1}" --regexPattern "[A-Za-z]+\\s[A-Za-z]+ [A-Za-z]+ \\([A-Za-z]+\\),\\s+[0-9]+\\s[A-Za-z]+" --regexOptions "0" name7=value
+getRegex --text "${pg1}" --regexPattern 1 --regexOptions "0" --getbyindex  --occurrenceindex 7 qt7=value
+getRegex --text "${pg1}" --regexPattern "[0-9]*\\.[0-9]+" --regexOptions "0" --getbyindex  --occurrenceindex 28 amt7=value
+getRegex --text "${pg1}" --regexPattern "MTR [A-Za-z]+ 850 g" --regexOptions "0" name8=value
+getRegex --text "${pg1}" --regexPattern "[0-9]+\\s" --regexOptions "0" --getbyindex  --occurrenceindex 8 qt8=value
+getRegex --text "${pg1}" --regexPattern "[0-9]*\\.[0-9]+" --regexOptions "0" --getbyindex  --occurrenceindex 32 amt8=value
+getRegex --text "${pg1}" --regexPattern "[A-Za-z]+\\s[A-Za-z]+ [A-Za-z0-9]+\\s+[A-Za-z]+" --regexOptions "0" --getbyindex  --occurrenceindex 1 name9=value
+getRegex --text "${pg1}" --regexPattern "[0-9]+\\s" --regexOptions "0" --getbyindex  --occurrenceindex 9 qt9=value
+getRegex --text "${pg1}" --regexPattern "[0-9]*\\.[0-9]+" --regexOptions "0" --getbyindex  --occurrenceindex 36 amt9=value
+getRegex --text "${pg1}" --regexPattern "[A-Za-z]+ [A-Za-z]+ Lobia \\([A-Za-z]+\\), 500 g" --regexOptions "0" name10=value
+getRegex --text "${pg1}" --regexPattern 1 --regexOptions "0" qt10=value
+getRegex --text "${pg1}" --regexPattern "[0-9]*\\.[0-9]+" --regexOptions "0" --getbyindex  --occurrenceindex 40 amt10=value
+getRegex --text "${pg1}" --regexPattern "[A-Za-z]+ Sampann [A-Za-z]+ [A-Za-z]+ [A-Za-z]+ \\([A-Za-z]+\\), 500 g" --regexOptions "0" name11=value
+getRegex --text "${pg1}" --regexPattern "[0-9]+\\s" --regexOptions "0" --getbyindex  --occurrenceindex 11 qt11=value
+getRegex --text "${pg1}" --regexPattern "[0-9]*\\.[0-9]+" --regexOptions "0" --getbyindex  --occurrenceindex 44 amt11=value
+getRegex --text "${pg1}" --regexPattern "Top\'s(\\s([A-Za-z]+\\s)+)[A-Za-z]+, ([A-Za-z0-9]+( [A-Za-z0-9]+)+)" --regexOptions "0" name12=value
+getRegex --text "${pg1}" --regexPattern 1 --regexOptions "0" --getbyindex  --occurrenceindex 12 qt12=value
+getRegex --text "${pg1}" --regexPattern "[0-9]*\\.[0-9]+" --regexOptions "0" --getbyindex  --occurrenceindex 48 amt12=value
+getRegex --text "${pg1}" --regexPattern "Surf [A-Za-z]+ [A-Za-z]+ [A-Za-z]+ [A-Za-z]+ [A-Za-z]+ [A-Za-z]+, ([A-Za-z0-9]+( [A-Za-z0-9]+)+)" --regexOptions "0" name13=value
+getRegex --text "${pg1}" --regexPattern 1 --regexOptions "0" --getbyindex  --occurrenceindex 13 qt13=value
+getRegex --text "${pg1}" --regexPattern "[0-9]*\\.[0-9]+" --regexOptions "0" --getbyindex  --occurrenceindex 52 amt13=value
+getRegex --text "${pg1}" --regexPattern "Mortein 2 [A-Za-z]+ 1 ([A-Za-z]+( [A-Za-z]+)+) & ([A-Za-z]+( [A-Za-z]+)+),(\\s([A-Za-z0-9]+\\s)+)[A-Za-z]+" --regexOptions "0" name14=value
+getRegex --text "${pg1}" --regexPattern 1 --regexOptions "0" --getbyindex  --occurrenceindex 13 qt14=value
+getRegex --text "${pg1}" --regexPattern "Mortein(\\s([A-Za-z0-9]+\\s)+)& ([A-Za-z]+( [A-Za-z]+)+), ([A-Za-z0-9]+( [A-Za-z0-9]+)+)" --regexOptions "0" amt14=value
+getRegex --text "${pg1}" --regexPattern "2083\\.00" --regexOptions "0" GT1=value
+getRegex --text "${pg1}" --regexPattern "[A-Za-z]+[0-9]+" --regexOptions "0" in1=value
+//#END 1
+getRegex --text "${pg3}" --regexPattern "DOVE(\\s([A-Za-z]+\\s)+)& ([A-Za-z]+( [A-Za-z]+)+), ([A-Za-z0-9]+( [A-Za-z0-9]+)+)" --regexOptions "0" name_1=value
+getRegex --text "${pg3}" --regexPattern "[0-9]+\\s" --regexOptions "0" --getbyindex  --occurrenceindex 1 qt_1=value
+getRegex --text "${pg3}" --regexPattern "[0-9]*\\.[0-9]+" --regexOptions "0" --getbyindex  --occurrenceindex 4 amt_1=value
+getRegex --text "${pg3}" --regexPattern "([A-Za-z]+( [A-Za-z]+)+)\\s\\([A-Za-z][A-Za-z][A-Za-z][A-Za-z][A-Za-z]\\),\\s+[0-9]+\\s[A-Za-z]+" --regexOptions "0" --getbyindex  --occurrenceindex 2 name_2=value
+getRegex --text "${pg3}" --regexPattern 2 --regexOptions "0" --getbyindex  --occurrenceindex 2 qt_2=value
+getRegex --text "${pg3}" --regexPattern "[0-9]*\\.[0-9]+" --regexOptions "0" --getbyindex  --occurrenceindex 8 amt_2=value
+getRegex --text "${pg3}" --regexPattern "343\\.00" --regexOptions "0" GT2=value
+getRegex --text "${pg3}" --regexPattern "[A-Za-z]+[0-9]+" --regexOptions "0" in2=value
+//#END 2
+getRegex --text "${pg4}" --regexPattern "([A-Za-z]+( [A-Za-z]+)+)\\s\\([A-Za-z][A-Za-z][A-Za-z][A-Za-z][A-Za-z]\\),\\s+[0-9]+\\s[A-Za-z]+" --regexOptions "0" --getbyindex  --occurrenceindex 1 name__1=value
+getRegex --text "${pg4}" --regexPattern "[0-9]+\\s" --regexOptions "0" --getbyindex  --occurrenceindex 1 qt__1=value
+getRegex --text "${pg4}" --regexPattern "[0-9]*\\.[0-9]+" --regexOptions "0" --getbyindex  --occurrenceindex 4 amt__1=value
+getRegex --text "${pg4}" --regexPattern "([A-Za-z]+( [A-Za-z]+)+)\\s\\([A-Za-z][A-Za-z][A-Za-z][A-Za-z][A-Za-z]\\),\\s+[0-9]+\\s[A-Za-z]+" --regexOptions "0" --getbyindex  --occurrenceindex 2 name__2=value
+getRegex --text "${pg4}" --regexPattern 1 --regexOptions "0" --getbyindex  --occurrenceindex 2 qt__2=value
+getRegex --text "${pg4}" --regexPattern "[0-9]*\\.[0-9]+" --regexOptions "0" --getbyindex  --occurrenceindex 8 amt__2=value
+getRegex --text "${pg4}" --regexPattern "150\\.00" --regexOptions "0" GT3=value
+getRegex --text "${pg4}" --regexPattern "[A-Za-z]+[0-9]+" --regexOptions "0" in3=value
+//#END 3
+excelOpen --file "D:\\IBM RPA PROJECTS\\Book2.xlsx" --savechanges  excel=value
+//#NOW NAME
+excelSet --value "${name}" --file ${excel} --getfirstsheet  --row 1 --column 1
+excelSet --value "${name2}" --file ${excel} --getfirstsheet  --row 2 --column 1
+excelSet --value "${name3}" --file ${excel} --getfirstsheet  --row 3 --column 1
+excelSet --value "${name4}" --file ${excel} --getfirstsheet  --row 4 --column 1
+excelSet --value "${name5}" --file ${excel} --getfirstsheet  --row 5 --column 1
+excelSet --value "${name6}" --file ${excel} --getfirstsheet  --row 6 --column 1
+excelSet --value "${name7}" --file ${excel} --getfirstsheet  --row 7 --column 1
+excelSet --value "${name8}" --file ${excel} --getfirstsheet  --row 8 --column 1
+excelSet --value "${name9}" --file ${excel} --getfirstsheet  --row 9 --column 1
+excelSet --value "${name10}" --file ${excel} --getfirstsheet  --row 10 --column 1
+excelSet --value "${name11}" --file ${excel} --getfirstsheet  --row 11 --column 1
+excelSet --value "${name12}" --file ${excel} --getfirstsheet  --row 12 --column 1
+excelSet --value "${name13}" --file ${excel} --getfirstsheet  --row 13 --column 1
+excelSet --value "${name14}" --file ${excel} --getfirstsheet  --row 14 --column 1
+excelSet --value "${name_1}" --file ${excel} --getfirstsheet  --row 15 --column 1
+excelSet --value "${name_2}" --file ${excel} --getfirstsheet  --row 16 --column 1
+excelSet --value "${name__1}" --file ${excel} --getfirstsheet  --row 17 --column 1
+excelSet --value "${name__2}" --file ${excel} --getfirstsheet  --row 18 --column 1
+//#NOW QT
+excelSet --value "${qt}" --file ${excel} --getfirstsheet  --row 1 --column 2
+excelSet --value "${qt2}" --file ${excel} --getfirstsheet  --row 2 --column 2
+excelSet --value "${qt3}" --file ${excel} --getfirstsheet  --row 3 --column 2
+excelSet --value "${qt4}" --file ${excel} --getfirstsheet  --row 4 --column 2
+excelSet --value "${qt5}" --file ${excel} --getfirstsheet  --row 5 --column 2
+excelSet --value "${qt6}" --file ${excel} --getfirstsheet  --row 6 --column 2
+excelSet --value "${qt7}" --file ${excel} --getfirstsheet  --row 7 --column 2
+excelSet --value "${qt8}" --file ${excel} --getfirstsheet  --row 8 --column 2
+excelSet --value "${qt9}" --file ${excel} --getfirstsheet  --row 9 --column 2
+excelSet --value "${qt10}" --file ${excel} --getfirstsheet  --row 10 --column 2
+excelSet --value "${qt11}" --file ${excel} --getfirstsheet  --row 11 --column 2
+excelSet --value "${qt12}" --file ${excel} --getfirstsheet  --row 12 --column 2
+excelSet --value "${qt13}" --file ${excel} --getfirstsheet  --row 13 --column 2
+excelSet --value "${qt14}" --file ${excel} --getfirstsheet  --row 14 --column 2
+excelSet --value "${qt_1}" --file ${excel} --getfirstsheet  --row 15 --column 2
+excelSet --value "${qt_2}" --file ${excel} --getfirstsheet  --row 16 --column 2
+excelSet --value "${qt__1}" --file ${excel} --getfirstsheet  --row 17 --column 2
+excelSet --value "${qt__2}" --file ${excel} --getfirstsheet  --row 18 --column 2
+//#NOW AMT
+excelSet --value "${amt}" --file ${excel} --getfirstsheet  --row 1 --column 3
+excelSet --value "${amt2}" --file ${excel} --getfirstsheet  --row 2 --column 3
+excelSet --value "${amt3}" --file ${excel} --getfirstsheet  --row 3 --column 3
+excelSet --value "${amt4}" --file ${excel} --getfirstsheet  --row 4 --column 3
+excelSet --value "${amt5}" --file ${excel} --getfirstsheet  --row 5 --column 3
+excelSet --value "${amt6}" --file ${excel} --getfirstsheet  --row 6 --column 3
+excelSet --value "${amt7}" --file ${excel} --getfirstsheet  --row 7 --column 3
+excelSet --value "${amt8}" --file ${excel} --getfirstsheet  --row 8 --column 3
+excelSet --value "${amt9}" --file ${excel} --getfirstsheet  --row 9 --column 3
+excelSet --value "${amt10}" --file ${excel} --getfirstsheet  --row 10 --column 3
+excelSet --value "${amt11}" --file ${excel} --getfirstsheet  --row 11 --column 3
+excelSet --value "${amt12}" --file ${excel} --getfirstsheet  --row 12 --column 3
+excelSet --value "${amt13}" --file ${excel} --getfirstsheet  --row 13 --column 3
+excelSet --value "${amt14}" --file ${excel} --getfirstsheet  --row 14 --column 3
+excelSet --value "${amt_1}" --file ${excel} --getfirstsheet  --row 15 --column 3
+excelSet --value "${amt_2}" --file ${excel} --getfirstsheet  --row 16 --column 3
+excelSet --value "${amt__1}" --file ${excel} --getfirstsheet  --row 17 --column 3
+excelSet --value "${amt__2}" --file ${excel} --getfirstsheet  --row 18 --column 3
+//#NOW Total
+excelSet --value "${GT1}" --file ${excel} --getfirstsheet  --row 1 --column 4
+excelSet --value "${GT2}" --file ${excel} --getfirstsheet  --row 2 --column 4
+excelSet --value "${GT3}" --file ${excel} --getfirstsheet  --row 3 --column 4
+//#NOW Invoice
+excelSet --value "${in1}" --file ${excel} --getfirstsheet  --row 1 --column 5
+excelSet --value "${in2}" --file ${excel} --getfirstsheet  --row 2 --column 5
+excelSet --value "${in3}" --file ${excel} --getfirstsheet  --row 3 --column 5*	23.0.13.0

@@ -1,0 +1,12 @@
+êdefVar --name table --type DataTable
+defVar --name sheet --type Excel
+defVar --name rows --type Numeric --value 10
+defVar --name columns --type Numeric --value 10
+webStart --name chrome --type "Chrome" --userprofilepreferences "AutomationOptimized" --downloadpath "D:\\IBM RPA PROJECTS\\downloads" --incognito 
+webNavigate --url "https://www.moneyworks4me.com/best-index/nse-stocks/top-nifty50-companies-list/"
+excelOpen --file "D:\\IBM RPA PROJECTS\\Book1.xlsx" --savechanges  sheet=value
+webGetTable --selector "Id" --id "stock-list-table" table=value rows=rows columns=columns
+excelReport --file "${sheet}" --dataTable ${table} --sheet "${sheet}" --cell A1
+excelSetTable --dataTable ${table} --file ${sheet} --sheet "${sheet}" --row 1 --column 1
+//excelSaveAs --filename "D:\\IBM RPA PROJECTS\\Book1.xlsx" --fileformat "xlWorkbookNormal"
+webClose --name chrome*	23.0.13.0
